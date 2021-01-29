@@ -1,0 +1,63 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo logo" 
+                         "hero hero"
+                         "newsLetter newsLetter"
+                         "footer footer";
+}
+
+.logo {
+    grid-area: logo;
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(120, 139, 247);
+    position: relative;
+    display: flex;
+}
+
+.hero ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    bottom: 25px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero li {
+    border-right: 1px solid #bbb;
+}
+
+.hero li:last-child {
+    border-right: none;
+}
+
+.hero li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size:30px;
+}
+
+.newsLetter {
+    grid-area: newsLetter;
+    height:80px;
+    width: 100vw;
+    background-color: rgb(189, 95, 95);
+}
+
+.footer {
+    grid-area: footer;
+    height:80px;
+    width: 100vw;
+    background-color: grey;
+}

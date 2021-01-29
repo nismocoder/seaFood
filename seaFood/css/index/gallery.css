@@ -1,0 +1,14 @@
+.hero {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    background: url(../../Assets/images/33.jpg);
+    height: 575px;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+    align-items: flex-end;
+}
+

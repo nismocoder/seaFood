@@ -1,0 +1,51 @@
+
+                        ---------------BRAINSTORMING--------------
+
+
+-Top Seafood restaurants in popular cities.
+-Top fish markets in popular cities
+
+
+-List of most common seafood dishes in different categories: sushi, grilled, fried etc.
+(-List of most common fish/squid/shellfish types and info on them like where they can be found- for sushi)
+
+-Potentially have a recipe section- Link to recipe inside the description of "most common dishes"
+
+
+
+-Sea Food condiments
+
+- "sushi guide"
+-Grill Guide?
+
+
+
+
+-----------------------------------------------------------------------------------
+
+Index page
+
+           nav O P T I O N S
+               
+	       Hero image
+
+ Sea Food Info  |  RESTAURANTS |  FISHMARKETS
+
+cycle popular restaurants
+pull in API for random seafood news?
+
+	   Email newsletter
+
+
+
+
+
+-For the "Info" section,
+categories can be:
+
+ popular dishes      Sushi Guide      
+ (^grilled,etc)
+
+-For restaurant section could do a "make a reservation" section
+-Also basic info under the hero image of the rest. like:
+     store hours and google map
