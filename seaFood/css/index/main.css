@@ -18,28 +18,58 @@
     display: flex;
 }
 
-.hero ul {
+.box {
+    position: relative; 
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box::before {    
+    content: "";
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.nav {
+    position: relative;
+    color: #ffffff;  
+    font-size: 30px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.nav ul {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: none;
-    bottom: 25px;
+    bottom: 5px;
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.hero li {
+.nav li {
     border-right: 1px solid #bbb;
+
 }
 
-.hero li:last-child {
+.nav li:last-child {
     border-right: none;
 }
 
-.hero li a {
+.nav li a {
     display: inline;
     color: white;
     text-align: center;
