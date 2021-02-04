@@ -51,7 +51,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 .nav {
@@ -159,6 +159,11 @@
       font-size: 18px;
   }
 
+  .container h3 {
+    height: auto;
+    width: 75%;
+  }
+
   .container input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -174,4 +179,5 @@
     cursor: pointer;
   }
 /* ------------------------------------------ */
+
 
