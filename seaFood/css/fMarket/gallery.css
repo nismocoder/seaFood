@@ -95,6 +95,7 @@ img {vertical-align: middle;}
   display: flex;
   position: relative;
   justify-content: center;
+  padding-top: 20px;
 }
 
 #map {
@@ -104,5 +105,4 @@ img {vertical-align: middle;}
   width: 75%;
   /* The width is the width of the web page */
   justify-content: center;
-
 }

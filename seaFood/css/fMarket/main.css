@@ -180,4 +180,28 @@
   }
 /* ------------------------------------------ */
 
+.marketList {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
+.olleft {
+    padding: 10px;
+    flex: 50%;
+}
+
+.olright{
+    padding: 10px;
+    flex: 50%;
+}
+
+.marketList ol li {
+    line-height: 1.6;
+}
