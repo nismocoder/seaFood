@@ -1,0 +1,117 @@
+.salmon h1 {
+display: flex;
+font-size: 22px;
+justify-content: center;
+text-decoration: underline;
+position: relative;
+top: 0;
+padding-bottom: 20px;
+padding-top: 40px;
+}
+
+.content h2 {
+    justify-content: center;
+    font-size: 22px;
+    padding:40px;
+    position: relative;
+    display: flex;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.salmonType1 {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.salmonType1 h1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: underline;
+    width: 100vw;
+}
+
+.salmonType1 p {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    width: 100vw;
+}
+
+.salmonType2 {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.salmonType2 h1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: underline;
+    width: 100vw;
+}
+
+.salmonType2 p {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    width: 100vw;
+}
+
+.salmonType3 {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.salmonType3 h1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: underline;
+    width: 100vw;
+}
+
+.salmonType3 p {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    width: 100vw;
+}

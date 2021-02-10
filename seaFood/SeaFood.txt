@@ -16,6 +16,7 @@
 -Sea Food condiments
 
 - "sushi guide"
+- "recipes"
 -Grill Guide?
 
 
@@ -49,3 +50,28 @@ categories can be:
 -For restaurant section could do a "make a reservation" section
 -Also basic info under the hero image of the rest. like:
      store hours and google map
+
+
+
+1-toyosu- 35.6762, lng: 139.6503
+2-La Nueva Viga- 19.3674, -99.0970
+3-Sydney Fish Market- 33.8730° S, 151.1927° E
+4-Billingsgate F market- 51.5062° N, 0.0126°
+5-Hamburg F market- 53.5457, 9.9520
+6-Busan Cooperative- 35.0884° N, 129.0252
+7-Feskekorka- 57.7019, 11.9573
+8-Fulton NY- 40.8026° N, 73.8752     40.80277615008147, -73.8752430939371
+9-Aberdeen HK- 22.2480° N, 114.1511
+10-Teipei Taiwan- 25.0667° N, 121.5367
+
+1 Hive Beach Cafe 50.6972, -2.7222
+2 Kødbyens Fiskebar 55.6680, 12.5592
+3 Bacash -37.8340, 144.9819
+4 Fiskeriet 59.9146, 10.7497
+5 Alle Testiere 45.4372, 12.3402
+6 Le Bernardin 40.7617, -73.9819
+7 la mar -12.1112, 
+8 Sukiyabashi Jiro 35.6745, 139.7634
+9 Proto 42.6414, 18.1084
+10 Chez Leon -20.2475, 57.4743
+50.8484, 4.3541
