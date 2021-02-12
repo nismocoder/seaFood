@@ -1,0 +1,352 @@
+.crab1 h1 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    }
+    
+    .content h2 {
+        justify-content: center;
+        font-size: 22px;
+        padding:40px;
+        position: relative;
+        display: flex;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    
+    .crabType1 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    }
+    
+    .crabType1 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType1 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType2 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType2 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType2 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType3 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType3 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType3 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType4 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType4 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType4 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType5 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType5 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType5 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType6 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType6 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType6 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    .crabType7 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType7 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType7 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    .crabType8 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType8 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType8 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    .crabType9 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    .crabType10 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .crabType10 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType10 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
