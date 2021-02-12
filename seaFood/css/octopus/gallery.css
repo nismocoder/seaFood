@@ -2,7 +2,7 @@
     grid-area: hero;
     display: flex;
     justify-content: center;
-    background: url("../../Assets/images/crab/h4.jfif");
+    background: url("../../Assets/images/octopus/hero1.jfif");
     height: 575px;
     background-position: center-top;
     background-repeat: no-repeat;
@@ -109,126 +109,207 @@ img {vertical-align: middle;}
 
 /* ------------------------------------- */
 
-.crabPicture1 {
+.shrimpPicture1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/ppp.jfif");
+  background-image: url("../../Assets/images/shrimp/top.jfif");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic1 {
+.shrimpPic1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/bairdi.jpg");
+  background-image: url("../../Assets/images/shrimp/1.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic2 {
+.shrimpPic2 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/blue.jpg");
+  background-image: url("../../Assets/images/shrimp/2.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic3 {
+.shrimpPic3 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/coconut.jfif");
+  background-image: url("../../Assets/images/shrimp/3.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic4 {
+.shrimpPic4 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/dungeoness.jfif");
+  background-image: url("../../Assets/images/shrimp/4.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic5 {
+.shrimpPic5 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/hermit.jpg");
+  background-image: url("../../Assets/images/shrimp/5.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic6 {
+.shrimpPic6 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/horseshoe.jfif");
+  background-image: url("../../Assets/images/shrimp/6.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic7 {
+.shrimpPic7 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/king.jpg");
+  background-image: url("../../Assets/images/shrimp/7.jpg");
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
 }
 
 
-.crabPic8 {
+.shrimpPic8 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/Peekytoe.png");
+  background-image: url("../../Assets/images/shrimp/8.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.crabPic9 {
+.shrimpPic9 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/snow.jfif");
+  background-image: url("../../Assets/images/shrimp/9.jpg");
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
 }
 
-.crabPic10 {
+.shrimpPic10 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/crab/stone.jpg");
+  background-image: url("../../Assets/images/shrimp/10.jpg");
   justify-content: center;
   background-position: center;
+}
+
+.shrimpPic11 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/11.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
+
+.shrimpPic12 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/12.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.shrimpPic13 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/13.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
+
+.shrimpPic14 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/14.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.shrimpPic15 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/15.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
+
+.shrimpPic16 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/16.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.shrimpPic17 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/17.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
 }
