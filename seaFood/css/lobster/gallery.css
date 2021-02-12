@@ -2,7 +2,7 @@
     grid-area: hero;
     display: flex;
     justify-content: center;
-    background: url("../../Assets/images/shrimpBoat.jpg");
+    background: url("../../Assets/images/lobster/hero.jpg");
     height: 575px;
     background-position: center-top;
     background-repeat: no-repeat;
@@ -109,79 +109,79 @@ img {vertical-align: middle;}
 
 /* ------------------------------------- */
 
-.salPicture {
+.lobPicture1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/salmonMain.jpg");
+  background-image: url("../../Assets/images/lobster/Rock-Lobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic1 {
+.lobPic1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/1.jfif");
+  background-image: url("../../Assets/images/lobster/clawedLobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic2 {
+.lobPic2 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/2.jfif");
+  background-image: url("../../Assets/images/lobster/reef-lobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic3 {
+.lobPic3 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/3.jfif");
+  background-image: url("../../Assets/images/lobster/spiny-lobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic4 {
+.lobPic4 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/4.jfif");
+  background-image: url("../../Assets/images/lobster/slipper-lobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic5 {
+.lobPic5 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/5.jfif");
+  background-image: url("../../Assets/images/lobster/squat-lobster.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.salPic6 {
+.lobPic6 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/salmon/6.jfif");
+  background-image: url("../../Assets/images/lobster/squatty.jpg");
   justify-content: center;
   background-position: center;
 }

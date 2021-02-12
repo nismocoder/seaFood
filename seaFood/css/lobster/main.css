@@ -198,14 +198,14 @@
     padding-bottom: 40px;
   }
 
-.fishContainer {
+.lobsterContainer {
     display: flex;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-  .salmon{
+  .lobster1{
     display: flex;
     position: relative;
     width: 100vw;
@@ -216,42 +216,42 @@
     justify-content: center;
 }
 
-.salmonType1 {
+.lobsterType1 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.salmonType2 {
+.lobsterType2 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.salmonType3 {
+.lobsterType3 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.salmonType4 {
+.lobsterType4 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.salmonType5 {
+.lobsterType5 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.salmonType6 {
+.lobsterType6 {
     display: flex;
     position: relative;
     width: 100%;
