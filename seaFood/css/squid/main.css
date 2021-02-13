@@ -198,14 +198,14 @@
     padding-bottom: 40px;
   }
 
-.octopusContainer {
+.squidContainer {
     display: flex;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-  .octo1{
+  .squid1{
     display: flex;
     position: relative;
     width: 100vw;
@@ -216,63 +216,42 @@
     justify-content: center;
 }
 
-.octoType1 {
+.squidType1 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.octoType2 {
+.squidType2 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.octoType3 {
+.squidType3 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.octoType4 {
+.squidType4 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.octoType5 {
+.squidType5 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.octoType6 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.octoType7 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.octoType8 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.octoType9 {
+.squidType6 {
     display: flex;
     position: relative;
     width: 100%;

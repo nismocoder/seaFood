@@ -1,4 +1,4 @@
-.octo1 h1 {
+.squid1 h1 {
     display: flex;
     font-size: 22px;
     justify-content: center;
@@ -19,7 +19,7 @@
         font-weight: 600;
     }
     
-    .octoType1 {
+    .squidType1 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -34,7 +34,7 @@
         padding-bottom: 50px;
     }
     
-    .octoType1 h1 {
+    .squidType1 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -42,7 +42,7 @@
         width: 100vw;
     }
     
-    .octoType1 p {
+    .squidType1 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -52,7 +52,7 @@
         padding-top: 20px;
     }
     
-    .octoType2 {
+    .squidType2 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -67,7 +67,7 @@
         padding-top: 20px;
     }
     
-    .octoType2 h1 {
+    .squidType2 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -75,7 +75,7 @@
         width: 100vw;
     }
     
-    .octoType2 p {
+    .squidType2 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -85,74 +85,7 @@
         padding-top: 20px;
     }
     
-    .octoType3 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        background-color: #f1f1f1;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .octoType3 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .octoType3 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .octoType4 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .octoType4 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .octoType4 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .octoType5 {
+    .squidType3 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -168,7 +101,7 @@
         padding-top: 20px;
     }
     
-    .octoType5 h1 {
+    .squidType3 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -176,7 +109,7 @@
         width: 100vw;
     }
     
-    .octoType5 p {
+    .squidType3 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -186,7 +119,7 @@
         padding-top: 20px;
     }
     
-    .octoType6 {
+    .squidType4 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -201,7 +134,7 @@
         padding-top: 20px;
     }
     
-    .octoType6 h1 {
+    .squidType4 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -209,7 +142,7 @@
         width: 100vw;
     }
     
-    .octoType6 p {
+    .squidType4 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -219,7 +152,7 @@
         padding-top: 20px;
     }
     
-    .octoType7 {
+    .squidType5 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -230,12 +163,12 @@
         height: auto;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
         background-color: #f1f1f1;
+        padding-bottom: 50px;
+        padding-top: 20px;
     }
     
-    .octoType7 h1 {
+    .squidType5 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -243,7 +176,7 @@
         width: 100vw;
     }
     
-    .octoType7 p {
+    .squidType5 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -252,8 +185,8 @@
         width: 100vw;
         padding-top: 20px;
     }
-
-    .octoType8 {
+    
+    .squidType6 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -268,7 +201,7 @@
         padding-top: 20px;
     }
     
-    .octoType8 h1 {
+    .squidType6 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -276,41 +209,7 @@
         width: 100vw;
     }
     
-    .octoType8 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-
-    .octoType9 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
-        background-color: #f1f1f1;
-    }
-    
-    .octoType9 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .octoType9 p {
+    .squidType6 p {
         display: flex;
         font-size: 18px;
         justify-content: center;

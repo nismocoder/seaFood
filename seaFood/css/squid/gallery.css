@@ -2,7 +2,7 @@
     grid-area: hero;
     display: flex;
     justify-content: center;
-    background: url("../../Assets/images/octopus/hero1.jfif");
+    background: url("../../Assets/images/squid/hero21.jfif");
     height: 575px;
     background-position: center-top;
     background-repeat: no-repeat;
@@ -109,118 +109,82 @@ img {vertical-align: middle;}
 
 /* ------------------------------------- */
 
-.octopusPicture1 {
+.squidPicture1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/aaa.jfif");
+  background-image: url("../../Assets/images/squid/main.jpg");
   justify-content: center;
   background-position: center;
   padding-bottom: 20px;
 }
 
-.octoPic1 {
+.squidPic1 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/1.jpg");
+  background-image: url("../../Assets/images/squid/1.png");
   justify-content: center;
   background-position: center;
 }
 
 
 
-.octoPic2 {
+.squidPic2 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/2.jpg");
+  background-image: url("../../Assets/images/squid/2.png");
   justify-content: center;
   background-position: center;
 }
 
-.octoPic3 {
+.squidPic3 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/3.jpg");
+  background-image: url("../../Assets/images/squid/3.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.octoPic4 {
+.squidPic4 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/4.jpg");
+  background-image: url("../../Assets/images/squid/4.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.octoPic5 {
+.squidPic5 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/5.jpg");
+  background-image: url("../../Assets/images/squid/5.jpg");
   justify-content: center;
   background-position: center;
 }
 
-.octoPic6 {
+.squidPic6 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/octopus/6.jpg");
+  background-image: url("../../Assets/images/squid/6.png");
   justify-content: center;
   background-position: center;
-}
-
-.octoPic7 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/octopus/7.jpg");
-  justify-content: center;
-  background-position: center;
-  background-color: #f1f1f1;
-}
-
-
-.octoPic8 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/octopus/8.jpg");
-  justify-content: center;
-  background-position: center;
-}
-
-.octoPic9 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/octopus/9.jpg");
-  justify-content: center;
-  background-position: center;
-  background-color: #f1f1f1;
 }
