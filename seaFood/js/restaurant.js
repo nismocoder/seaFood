@@ -39,7 +39,7 @@ function initMap() {
     '<div id="siteNotice">' +
     "</div>" +
       '<h1 id="firstHeading" class="firstHeading"><b>Bacash</b></h1>' +
-      '<h2><img src="Assets/images/bacash.jpg" alt="Girl in a jacket" width="270" height="260"></h2>'+
+      '<h2><img src="Assets/images/bacash.jfif" alt="Girl in a jacket" width="270" height="260"></h2>'+
       '<div id="bodyContent">' +
       "<p><b>Bacash restaurant</b> where fish is the order of the day and simplicity is key."+
       "Here you’ll find Melbourne’s finest seafood produce, executed to perfection."+

@@ -258,6 +258,34 @@
     height: auto;
 }
 
+.salmonType7 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.salmonType8 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.salmonType9 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.salmonType10 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .tuna{
     display: flex;
     position: relative;

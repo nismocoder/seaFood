@@ -1,14 +1,14 @@
 .hero {
-    grid-area: hero;
-    display: flex;
-    justify-content: center;
-    background: url("../../Assets/images/shrimpBoat.jpg");
-    height: 575px;
-    background-position: center-top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    align-items: flex-end;
+  grid-area: hero;
+  display: flex;
+  justify-content: center;
+  background: url("../../Assets/images/shrimpBoat.jpg");
+  height: 575px;
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  align-items: flex-end;
 }
 
 /* ---------------------- slideshow---------------------------- */
@@ -20,346 +20,291 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+max-width: 1000px;
+position: relative;
+margin: auto;
+display: flex;
+justify-content: center;
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
 }
 
 .mySlidesfade img {
-    height: 300px;
-    width: auto;
+  height: 300px;
+  width: auto;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+from {opacity: .4} 
+to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+from {opacity: .4} 
+to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.text {font-size: 11px}
 }
 
 /* ---------------------- slideshow end---------------------------- */
 .mapContainer {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  padding-top: 20px;
+display: flex;
+position: relative;
+justify-content: center;
+padding-top: 20px;
 }
 
 #map {
-  display: flex;
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 75%;
-  /* The width is the width of the web page */
-  justify-content: center;
+display: flex;
+height: 400px;
+/* The height is 400 pixels */
+width: 75%;
+/* The width is the width of the web page */
+justify-content: center;
 }
 
 /* ------------------------------------- */
 
 .salPicture {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/salmonMain.jpg");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/dipMain2.jfif");
+justify-content: center;
+background-position: center;
 }
 
 .salPic1 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/1.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 150px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/parsley.jfif");
+justify-content: center;
+background-position: center;
 }
 
 .salPic2 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/2.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/SmokedRomesco\ Sauce.jfif");
+justify-content: center;
+background-position: center;
 }
 
 .salPic3 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/3.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/herbSauce.jfif");
+justify-content: center;
+background-position: center;
 }
 
 .salPic4 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/4.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/rich-tomato.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .salPic5 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/5.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/mint.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .salPic6 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/salmon/6.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/fish/sauces/lemon.jpg");
+justify-content: center;
+background-position: center;
 }
 
-.tunaPicture {
+.salPic7 {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
-  background-image: url("../../Assets/images/tuna/tunaMain.jpg");
+  background-image: url("../../Assets/images/fish/sauces/salmSauce.jpg");
   justify-content: center;
   background-position: center;
-  background-color: #ffffff;
+  }
+
+  .salPic8 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: auto;
+    background-image: url("../../Assets/images/fish/sauces/redWine.jpg");
+    justify-content: center;
+    background-position: center;
+    }
+
+    .salPic9 {
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 250px;
+      width: auto;
+      background-image: url("../../Assets/images/fish/sauces/tomatoGinger.jpg");
+      justify-content: center;
+      background-position: center;
+      }
+
+      .salPic10 {
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: auto;
+        background-image: url("../../Assets/images/fish/sauces/sweetnsour.jpg");
+        justify-content: center;
+        background-position: center;
+        }
+
+.tunaPicture {
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/crabMain.jpg");
+justify-content: center;
+background-position: center;
+background-color: #ffffff;
 }
 
 
 .tunaPic1 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna1.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/brandy.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .tunaPic2 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna2.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/chive.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .tunaPic3 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna3.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/butter.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .tunaPic4 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna4.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/diableSauce.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .tunaPic5 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna5.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/tartar.jpg");
+justify-content: center;
+background-position: center;
 }
 
 .tunaPic6 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna6.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic7 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna7.jpg");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic8 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna8.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic9 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna9.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic10 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna10.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic11 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna11.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic12 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna12.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic13 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna13.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic14 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna14.jfif");
-  justify-content: center;
-  background-position: center;
-}
-
-.tunaPic15 {
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: auto;
-  background-image: url("../../Assets/images/tuna/tuna15.jfif");
-  justify-content: center;
-  background-position: center;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+height: 250px;
+width: auto;
+background-image: url("../../Assets/images/crab/ponzu.jpg");
+justify-content: center;
+background-position: center;
 }

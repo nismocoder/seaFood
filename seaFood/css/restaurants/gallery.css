@@ -2,7 +2,7 @@
     grid-area: hero;
     display: flex;
     justify-content: center;
-    background: url(../../Assets/images/restmain.png);
+    background: url("../../Assets/images/restmain.png");
     height: 575px;
     background-position: center-top;
     background-repeat: no-repeat;
