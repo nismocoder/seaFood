@@ -1,6 +1,6 @@
 .salmon h1 {
     display: flex;
-    font-size: 22px;
+    font-size: 26px;
     justify-content: center;
     text-decoration: underline;
     position: relative;
@@ -355,7 +355,7 @@
     
     .tuna h1 {
         display: flex;
-        font-size: 22px;
+        font-size: 26px;
         justify-content: center;
         text-decoration: underline;
         position: relative;
@@ -565,8 +565,8 @@
             width: 100vw;
             padding-top: 20px;
         }
-    
-        .tunaType7 {
+
+        .shrimpType1 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -581,7 +581,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType7 h1 {
+        .shrimpType1 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -590,7 +590,7 @@
             background-color: #f1f1f1;
         }
         
-        .tunaType7 p {
+        .shrimpType1 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -598,9 +598,10 @@
             position: relative;
             width: 100vw;
             padding-top: 20px;
+            background-color: #f1f1f1;
         }
-    
-        .tunaType8 {
+
+        .shrimpType2 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -615,7 +616,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType8 h1 {
+        .shrimpType2 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -623,7 +624,7 @@
             width: 100vw;
         }
         
-        .tunaType8 p {
+        .shrimpType2 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -632,8 +633,8 @@
             width: 100vw;
             padding-top: 20px;
         }
-    
-        .tunaType9 {
+
+        .shrimpType3 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -648,7 +649,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType9 h1 {
+        .shrimpType3 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -657,7 +658,7 @@
             background-color: #f1f1f1;
         }
         
-        .tunaType9 p {
+        .shrimpType3 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -665,76 +666,10 @@
             position: relative;
             width: 100vw;
             padding-top: 20px;
-        }
-    
-        .tunaType10 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType10 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType10 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType11 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType11 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
             background-color: #f1f1f1;
         }
-        
-        .tunaType11 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType12 {
+
+        .shrimpType4 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -749,7 +684,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType12 h1 {
+        .shrimpType4 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -757,7 +692,7 @@
             width: 100vw;
         }
         
-        .tunaType12 p {
+        .shrimpType4 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -766,8 +701,8 @@
             width: 100vw;
             padding-top: 20px;
         }
-    
-        .tunaType13 {
+
+        .shrimpType5 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -782,7 +717,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType13 h1 {
+        .shrimpType5 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -791,7 +726,7 @@
             background-color: #f1f1f1;
         }
         
-        .tunaType13 p {
+        .shrimpType5 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -799,9 +734,10 @@
             position: relative;
             width: 100vw;
             padding-top: 20px;
+            background-color: #f1f1f1;
         }
-    
-        .tunaType14 {
+
+        .shrimpType6 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -816,7 +752,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType14 h1 {
+        .shrimpType6 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -824,7 +760,7 @@
             width: 100vw;
         }
         
-        .tunaType14 p {
+        .shrimpType6 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -833,8 +769,8 @@
             width: 100vw;
             padding-top: 20px;
         }
-    
-        .tunaType15 {
+
+        .shrimpType7 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -849,7 +785,7 @@
             padding-bottom: 50px;
         }
         
-        .tunaType15 h1 {
+        .shrimpType7 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -858,7 +794,990 @@
             background-color: #f1f1f1;
         }
         
-        .tunaType15 p {
+        .shrimpType7 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .shrimpType8 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .shrimpType8 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .shrimpType8 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .shrimpType9 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .shrimpType9 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .shrimpType9 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+
+
+        .lobsterType1 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType1 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .lobsterType1 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .lobsterType2 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType2 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .lobsterType2 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .lobsterType3 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType3 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .lobsterType3 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .lobsterType4 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType4 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .lobsterType4 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .lobsterType5 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType5 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .lobsterType5 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .lobsterType6 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType6 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .lobsterType6 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .lobsterType7 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .lobsterType7 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .lobsterType7 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+
+        .octopusType1 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType1 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .octopusType1 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .octopusType2 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType2 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType2 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType3 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType3 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .octopusType3 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .octopusType4 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType4 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType4 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType5 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType5 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .octopusType5 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .octopusType6 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType6 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType6 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType7 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType7 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType7 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType8 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType8 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType8 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType9 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType9 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType9 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .octopusType10 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .octopusType10 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .octopusType10 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType1 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .squidType1 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .squidType1 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .squidType2 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType2 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType2 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType3 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .squidType3 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .squidType3 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .squidType4 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType4 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType4 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType5 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .squidType5 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .squidType5 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .squidType6 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType6 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType6 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType7 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType7 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType7 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType8 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType8 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType8 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType9 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType9 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType9 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .squidType10 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            padding-bottom: 50px;
+        }
+        
+        .squidType10 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+        }
+        
+        .squidType10 p {
             display: flex;
             font-size: 18px;
             justify-content: center;

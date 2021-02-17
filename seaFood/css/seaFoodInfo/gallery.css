@@ -308,3 +308,408 @@ background-image: url("../../Assets/images/crab/ponzu.jpg");
 justify-content: center;
 background-position: center;
 }
+
+.shrimpPicture {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/cocktailSauceMain.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffffff;
+  }
+
+.shrimpPic1 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/CrosseNBlackwell.png");
+  justify-content: center;
+  background-position: center;
+  }
+
+  .shrimpPic2 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: auto;
+    background-image: url("../../Assets/images/shrimp/oldBaySauce.jpg");
+    justify-content: center;
+    background-position: center;
+    }
+
+    .shrimpPic3 {
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 250px;
+      width: auto;
+      background-image: url("../../Assets/images/shrimp/stone.png");
+      justify-content: center;
+      background-position: center;
+      background-color: #f1f1f1;
+      }
+
+      .shrimpPic4 {
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: auto;
+        background-image: url("../../Assets/images/shrimp/golds.jpg");
+        justify-content: center;
+        background-position: center;
+        }
+
+        .shrimpPic5 {
+          position: relative;
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 250px;
+          width: auto;
+          background-image: url("../../Assets/images/shrimp/Frisch.jpg");
+          justify-content: center;
+          background-position: center;
+          background-color: #f1f1f1;
+          }
+
+          .shrimpPic6 {
+            position: relative;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 250px;
+            width: auto;
+            background-image: url("../../Assets/images/shrimp/Kraft.jpg");
+            justify-content: center;
+            background-position: center;
+            }
+
+          .shrimpPic7 {
+            position: relative;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 250px;
+            width: auto;
+            background-image: url("../../Assets/images/shrimp/SweetBaby.jpg");
+            justify-content: center;
+            background-position: center;
+            background-color: #f1f1f1;
+            }
+
+            .shrimpPic8 {
+              position: relative;
+              background-size: contain;
+              background-repeat: no-repeat;
+              height: 250px;
+              width: auto;
+              background-image: url("../../Assets/images/shrimp/Gourmaise.jpg");
+              justify-content: center;
+              background-position: center;
+              }
+
+              .shrimpPic9 {
+                position: relative;
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 250px;
+                width: auto;
+                background-image: url("../../Assets/images/shrimp/THUMB.jpg");
+                justify-content: center;
+                background-position: center;
+                background-color: #f1f1f1;
+                }
+
+
+                .lobsterPicture {
+                  position: relative;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  height: 250px;
+                  width: auto;
+                  background-image: url("../../Assets/images/lobster/saucesMain.jfif");
+                  justify-content: center;
+                  background-position: center;
+                  background-color: #ffffff;
+                  }
+                
+                .lobsterPic1 {
+                  position: relative;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  height: 250px;
+                  width: auto;
+                  background-image: url("../../Assets/images/lobster/ClassicThermidor.jfif");
+                  justify-content: center;
+                  background-position: center;
+                  }
+
+                  .lobsterPic2 {
+                    position: relative;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                    width: auto;
+                    background-image: url("../../Assets/images/lobster/lemon.jfif");
+                    justify-content: center;
+                    background-position: center;
+                    }
+
+                    .lobsterPic3 {
+                      position: relative;
+                      background-size: contain;
+                      background-repeat: no-repeat;
+                      height: 250px;
+                      width: auto;
+                      background-image: url("../../Assets/images/lobster/shallot.jfif");
+                      justify-content: center;
+                      background-position: center;
+                      }
+
+                      .lobsterPic4 {
+                        position: relative;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        height: 250px;
+                        width: auto;
+                        background-image: url("../../Assets/images/lobster/green.png");
+                        justify-content: center;
+                        background-position: center;
+                        }
+
+                        .lobsterPic5 {
+                          position: relative;
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          height: 250px;
+                          width: auto;
+                          background-image: url("../../Assets/images/lobster/asianSpices.jfif");
+                          justify-content: center;
+                          background-position: center;
+                          }
+
+                          .lobsterPic6 {
+                            position: relative;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            height: 250px;
+                            width: auto;
+                            background-image: url("../../Assets/images/lobster/truf.jfif");
+                            justify-content: center;
+                            background-position: center;
+                            }
+
+                            .lobsterPic7 {
+                              position: relative;
+                              background-size: contain;
+                              background-repeat: no-repeat;
+                              height: 250px;
+                              width: auto;
+                              background-image: url("../../Assets/images/lobster/random.jfif");
+                              justify-content: center;
+                              background-position: center;
+                              }
+
+                              .octopusPicture {
+                                position: relative;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                height: 250px;
+                                width: auto;
+                                background-image: url("../../Assets/images/octopus/octMain.png");
+                                justify-content: center;
+                                background-position: center;
+                                background-color: #ffffff;
+                                }
+                              
+                              .octopusPic1 {
+                                position: relative;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                height: 250px;
+                                width: auto;
+                                background-image: url("../../Assets/images/octopus/chili.jfif");
+                                justify-content: center;
+                                background-position: center;
+                                }
+              
+                                .octopusPic2 {
+                                  position: relative;
+                                  background-size: contain;
+                                  background-repeat: no-repeat;
+                                  height: 250px;
+                                  width: auto;
+                                  background-image: url("../../Assets/images/octopus/ancho.jfif");
+                                  justify-content: center;
+                                  background-position: center;
+                                  }
+              
+                                  .octopusPic3 {
+                                    position: relative;
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    height: 250px;
+                                    width: auto;
+                                    background-image: url("../../Assets/images/octopus/BlackBean.jfif");
+                                    justify-content: center;
+                                    background-position: center;
+                                    }
+              
+                                    .octopusPic4 {
+                                      position: relative;
+                                      background-size: contain;
+                                      background-repeat: no-repeat;
+                                      height: 250px;
+                                      width: auto;
+                                      background-image: url("../../Assets/images/octopus/Takoyakisauce.jfif");
+                                      justify-content: center;
+                                      background-position: center;
+                                      }
+              
+                                      .octopusPic5 {
+                                        position: relative;
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 250px;
+                                        width: auto;
+                                        background-image: url("../../Assets/images/octopus/Kewpiesauce.jfif");
+                                        justify-content: center;
+                                        background-position: center;
+                                        }
+              
+                                        .octopusPic6 {
+                                          position: relative;
+                                          background-size: contain;
+                                          background-repeat: no-repeat;
+                                          height: 250px;
+                                          width: auto;
+                                          background-image: url("../../Assets/images/octopus/octoTempura.jfif");
+                                          justify-content: center;
+                                          background-position: center;
+                                          }
+
+                                          .squidPicture {
+                                            position: relative;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            height: 250px;
+                                            width: auto;
+                                            background-image: url("../../Assets/images/squid/calamariMain.jpg");
+                                            justify-content: center;
+                                            background-position: center;
+                                            background-color: #ffffff;
+                                            }
+                                          
+                                          .squidPic1 {
+                                            position: relative;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            height: 250px;
+                                            width: auto;
+                                            background-image: url("../../Assets/images/squid/romesco.jfif");
+                                            justify-content: center;
+                                            background-position: center;
+                                            }
+
+                                            .squidPic2 {
+                                              position: relative;
+                                              background-size: contain;
+                                              background-repeat: no-repeat;
+                                              height: 250px;
+                                              width: auto;
+                                              background-image: url("../../Assets/images/squid/marinara.jfif");
+                                              justify-content: center;
+                                              background-position: center;
+                                              }
+
+                                              .squidPic3 {
+                                                position: relative;
+                                                background-size: contain;
+                                                background-repeat: no-repeat;
+                                                height: 250px;
+                                                width: auto;
+                                                background-image: url("../../Assets/images/squid/garlicLemon.jpg");
+                                                justify-content: center;
+                                                background-position: center;
+                                                }
+
+                                                .squidPic4 {
+                                                  position: relative;
+                                                  background-size: contain;
+                                                  background-repeat: no-repeat;
+                                                  height: 250px;
+                                                  width: auto;
+                                                  background-image: url("../../Assets/images/squid/chipotleAoli.jfif");
+                                                  justify-content: center;
+                                                  background-position: center;
+                                                  }
+
+                                                  .squidPic5 {
+                                                    position: relative;
+                                                    background-size: contain;
+                                                    background-repeat: no-repeat;
+                                                    height: 250px;
+                                                    width: auto;
+                                                    background-image: url("../../Assets/images/squid/LemonBasil.jfif");
+                                                    justify-content: center;
+                                                    background-position: center;
+                                                    }
+
+                                                    .squidPic6 {
+                                                      position: relative;
+                                                      background-size: contain;
+                                                      background-repeat: no-repeat;
+                                                      height: 250px;
+                                                      width: auto;
+                                                      background-image: url("../../Assets/images/squid/ranch.jpg");
+                                                      justify-content: center;
+                                                      background-position: center;
+                                                      }
+
+                                                      .squidPic7 {
+                                                        position: relative;
+                                                        background-size: contain;
+                                                        background-repeat: no-repeat;
+                                                        height: 250px;
+                                                        width: auto;
+                                                        background-image: url("../../Assets/images/squid/smokedChipotle.JPG");
+                                                        justify-content: center;
+                                                        background-position: center;
+                                                        }
+
+                                                        .squidPic8 {
+                                                          position: relative;
+                                                          background-size: contain;
+                                                          background-repeat: no-repeat;
+                                                          height: 250px;
+                                                          width: auto;
+                                                          background-image: url("../../Assets/images/squid/creamyChipotle.jpg");
+                                                          justify-content: center;
+                                                          background-position: center;
+                                                          }
+
+                                                          .squidPic9 {
+                                                            position: relative;
+                                                            background-size: contain;
+                                                            background-repeat: no-repeat;
+                                                            height: 250px;
+                                                            width: auto;
+                                                            background-image: url("../../Assets/images/squid/redSauce.jpg");
+                                                            justify-content: center;
+                                                            background-position: center;
+                                                            }
+
+                                                            .squidPic10 {
+                                                              position: relative;
+                                                              background-size: contain;
+                                                              background-repeat: no-repeat;
+                                                              height: 250px;
+                                                              width: auto;
+                                                              background-image: url("../../Assets/images/squid/sweetOrange.jpeg");
+                                                              justify-content: center;
+                                                              background-position: center;
+                                                              }

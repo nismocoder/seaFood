@@ -341,63 +341,284 @@
     height: auto;
 }
 
-.tunaType7 {
+
+.shrimpSauce{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+}
+
+.shrimpType1 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType8 {
+.shrimpType2 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType9 {
+.shrimpType3 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType10 {
+.shrimpType4 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType11 {
+.shrimpType5 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType12 {
+.shrimpType6 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType13 {
+.shrimpType7 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType14 {
+.shrimpType8 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType15 {
+.shrimpType9 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.lobsterSauce{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+}
+
+.lobsterType1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lobsterType2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lobsterType3 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lobsterType4 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lobsterType5 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lobsterType6 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.octopusSauce{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+}
+
+.octopusType1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType3 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType4 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType5 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType6 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.octopusType7 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.squidSauce{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+}
+
+.squidType1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType3 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType4 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType5 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType6 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType7 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType8 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType9 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.squidType10 {
     display: flex;
     position: relative;
     width: 100%;
