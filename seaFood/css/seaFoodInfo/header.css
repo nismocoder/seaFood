@@ -1,3 +1,437 @@
+.sideFoodContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.sideFood {
+    display: inline-block;
+    background-color: #f1f1f1;
+    height: auto;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sideHeader {
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #ffffff;
+}
+
+.side1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    }
+
+.side1 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+
+}
+
+
+.sidePic1 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/grilledvegetables.jpeg");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side2 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.side2 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic2 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/kale-leaves.jpg");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side3 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    }
+
+.side3 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic3 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/macaroni.jfif");
+    flex: 50%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.side4 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.side4 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic4 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/Pesto.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side5 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    }
+
+.side5 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic5 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/greek.jfif");
+    flex: 50%;
+    padding-left: 20px;
+    
+}
+
+.side6 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.side6 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic6 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/kebab.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side7 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    }
+
+.side7 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic7 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/Couscous.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side8 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.side8 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic8 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/Mango.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side9 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    }
+
+.side9 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic9 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/potato.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+.side10 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.side10 h1 {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding-right: 20px;
+}
+
+
+.sidePic10 {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: left;
+    background-image: url("../../Assets/images/side/Caesar.jfif");
+    flex: 50%;
+    padding-left: 20px;
+}
+
+
+
+
+
 .salmon h1 {
     display: flex;
     font-size: 26px;
@@ -1319,137 +1753,6 @@
             padding-top: 20px;
         }
 
-        .octopusType7 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .octopusType7 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .octopusType7 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-
-        .octopusType8 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .octopusType8 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .octopusType8 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-
-        .octopusType9 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .octopusType9 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .octopusType9 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-
-        .octopusType10 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .octopusType10 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .octopusType10 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
 
         .squidType1 {
             display: flex;
@@ -1666,7 +1969,7 @@
             height: auto;
             flex-direction: column;
             text-align: center;
-            background-color: #ffffff;
+            background-color: #f1f1f1;
             padding-bottom: 50px;
         }
         
@@ -1676,6 +1979,7 @@
             justify-content: center;
             text-decoration: underline;
             width: 100vw;
+            background-color: #f1f1f1;
         }
         
         .squidType7 p {
@@ -1686,6 +1990,7 @@
             position: relative;
             width: 100vw;
             padding-top: 20px;
+            background-color: #f1f1f1;
         }
 
         .squidType8 {
@@ -1732,7 +2037,7 @@
             height: auto;
             flex-direction: column;
             text-align: center;
-            background-color: #ffffff;
+            background-color: #f1f1f1;
             padding-bottom: 50px;
         }
         
@@ -1742,6 +2047,7 @@
             justify-content: center;
             text-decoration: underline;
             width: 100vw;
+            background-color: #f1f1f1;
         }
         
         .squidType9 p {
@@ -1752,6 +2058,7 @@
             position: relative;
             width: 100vw;
             padding-top: 20px;
+            background-color: #f1f1f1;
         }
 
         .squidType10 {
@@ -1786,3 +2093,82 @@
             width: 100vw;
             padding-top: 20px;
         }
+
+
+
+        @media (max-width: 700px) {
+
+            .side1, .side2, .side3, .side4, .side5, .side6, .side7, .side8, .side9, .side10 {
+                display:inline-flex;
+                position: relative;
+                height: 300px;
+                width: 100vw;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                flex-direction: column;
+            }
+
+            .side1 h1, .side2 h1, .side3 h1, .side4 h1, .side5 h1, .side6 h1, .side7 h1, .side8 h1, .side9 h1, .side10 h1 {
+                display: inline-flex;
+                position: relative;
+                height: auto;
+                width: 100vw;
+                justify-content: center;
+                align-content: center;
+                flex-wrap: nowrap;
+            }
+
+            .sidePic1, .sidePic2, .sidePic3, .sidePic4, .sidePic5, .sidePic6, .sidePic7, .sidePic8, .sidePic9, .sidePic10{
+                display: flex;
+                position: relative;
+                height: 250px;
+                width: auto;
+                justify-content: center;
+                flex-wrap: nowrap;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url("../../Assets/images/side/grilledvegetables.jpeg");
+                padding-bottom: 30px;
+                align-content: space-between;
+            }
+
+        }
+
+
+        /* .side1 + .side2 + .side3 + .side4 + .side5 + .side6 + .side7 + .side8 + .side9 + .side10 {
+            display:inline-flex;
+            position: relative;
+            height: 300px;
+            width: 100vw;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+
+        .side1 h1 + .side2 h1 + .side3 h1 + .side4 h1 + .side5 h1 + .side6 h1 + .side7 h1 + .side8 h1 + .side9 h1 + .side10 h1 {
+            display: inline-flex;
+            position: relative;
+            height: auto;
+            width: 100vw;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: nowrap;
+        }
+
+        .sidePic1 + .sidePic2 + .sidePic3 + .sidePic4 + .sidePic5 + .sidePic6 + .sidePic7 + .sidePic8 + .sidePic9 + .sidePic10 {
+            display: flex;
+            position: relative;
+            height: 250px;
+            width: auto;
+            justify-content: center;
+            flex-wrap: nowrap;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url("../../Assets/images/side/grilledvegetables.jpeg");
+            padding-bottom: 30px;
+            align-content: space-between;
+        }
+
+    } */

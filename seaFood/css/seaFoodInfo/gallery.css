@@ -109,6 +109,7 @@ justify-content: center;
 
 /* ------------------------------------- */
 
+
 .salPicture {
 position: relative;
 background-size: contain;
@@ -118,6 +119,7 @@ width: auto;
 background-image: url("../../Assets/images/fish/sauces/dipMain2.jfif");
 justify-content: center;
 background-position: center;
+margin-bottom: 50px;
 }
 
 .salPic1 {
@@ -521,9 +523,10 @@ background-position: center;
                                 height: 250px;
                                 width: auto;
                                 background-image: url("../../Assets/images/octopus/octMain.png");
-                                justify-content: center;
+                                justify-content: space-around;
                                 background-position: center;
                                 background-color: #ffffff;
+                                padding-bottom: 40px;
                                 }
                               
                               .octopusPic1 {
@@ -701,6 +704,7 @@ background-position: center;
                                                             background-image: url("../../Assets/images/squid/redSauce.jpg");
                                                             justify-content: center;
                                                             background-position: center;
+                                                            background-color: #f1f1f1;
                                                             }
 
                                                             .squidPic10 {
