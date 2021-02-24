@@ -21,6 +21,7 @@
     align-items: center;
     font-size: 17px;
     font-weight: bold;
+    z-index: 1000;
 }
 
 .fish {
@@ -35,7 +36,7 @@
 
 .box {
     position: relative; 
-    height: 20vh;
+    height: 26vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,7 +59,7 @@
 .nav {
     position: relative;
     color: #ffffff;  
-    font-size: 30px;
+    font-size: 20px;
     line-height: 0.9;
     text-align: center;
 }
@@ -75,37 +76,67 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+    width: 100vw;
+    align-items: center;
 }
 
 .nav li {
-    border-right: 1px solid #bbb;
-    line-height: 100%;
+    list-style: none;
+    color: black; 
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    width: 290px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding-top: 10px;
 }
 
-.nav li:last-child {
+/* .nav li:last-child {
     border-right: none;
-}
+} */
 
 .nav li a {
     display: inline;
-    color: white;
-    text-align: center;
-    padding: 2px 14px;
-    text-decoration: underline;
+    /* color: white; */
+    /* text-align: center; */
+    /* padding: 2px 14px; */
+    /* text-decoration: underline; */
     font-size:24px;
     transition: 0.5s ease-in-out;
+    transform: scale(0.5);
+    /* font-size: 2em; */
+    background: transparent;
+    padding: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: auto;
+    /* margin-top: 10px; */
 }
 
 .nav li a:hover {
-    background: rgb(4, 122, 219);
-    padding: 25px;
+    /* background: rgb(4, 122, 219);
+    padding: 25px; */
+    transform: scale(0.5) translateX(-10px);
+    letter-spacing: 5px;
+    padding: 20px;
+    text-align: center;
   }
 
   /* --------------------------------------- */
   .nav-mini {
     position: relative;
     color: #ffffff;  
-    font-size: 30px;
+    font-size: 20px;
     line-height: 0.9;
     text-align: center;
 }
@@ -117,35 +148,62 @@
     padding: 0;
     overflow: hidden;
     background-color: none;
-    bottom: 5px;
+    bottom: 4px;
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px;
+    width: 100vw;
+    align-items: center;
 }
 
 .nav-mini li {
-    border-right: 1px solid #bbb;
-    line-height: 100%;
+    list-style: none;
+    color: black; 
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding-top: 13px;
 }
 
-.nav-mini li:last-child {
+/* .nav-mini li:last-child {
     border-right: none;
-}
+} */
 
 .nav-mini li a {
     display: inline;
-    color: white;
-    text-align: center;
-    padding: 2px 14px;
-    text-decoration: underline;
-    font-size:18px;
+    /* color: white; */
+    /* text-align: center; */
+    /* padding: 2px 14px; */
+    /* text-decoration: underline; */
+    font-size: 18px;
     transition: 0.5s ease-in-out;
+    transform: scale(0.5);
+    /* font-size: 2em; */
+    background: transparent;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: auto;
+    /* margin-top: 10px; */
 }
 
 .nav-mini li a:hover {
-    background: rgb(4, 122, 219);
-    padding: 25px;
+    transform: scale(0.5) translateX(-10px);
+    letter-spacing: 5px;
+    padding: 18px;
+    text-align: center;
   }
   /* ------------------------------------------ */
   .seaLifeType {
@@ -203,7 +261,28 @@
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+/* .fishContainer h2 {
+    justify-content: center;
+    font-size: 22px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    font-weight: 600;
+} */
+/* .fishContainer {
+    background-image: url("../../Assets/images/fish/tuna/blue.png");
+    justify-content: center;
+    background-position: center;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
 
   .salmon{
     display: flex;
@@ -215,6 +294,15 @@
     flex-direction: column;
     justify-content: center;
 }
+
+/* .salmon{
+    background-image: url("../../Assets/images/fish/tuna/blue.png");
+    justify-content: center;
+    background-position: center;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
 
 .salmonType1 {
     display: flex;
@@ -258,6 +346,14 @@
     height: auto;
 }
 
+.divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+}
+
 .tuna{
     display: flex;
     position: relative;
@@ -267,7 +363,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(4, 122, 219);
+    /* background-color: rgb(4, 122, 219); */
     padding-top: 30px;
 }
 
@@ -383,9 +479,7 @@
     height: auto;
     width: 100vw;
     background-color: #ffffff;
-    padding-bottom: 30px;
 }
-
 
 
 
@@ -406,6 +500,8 @@
     justify-content: center;
     flex-wrap:wrap;
   }
+
+
 
 
  .form {
@@ -433,6 +529,7 @@
     height: auto;
     width: 75%;
   }
+
 
   .container input[type=submit] {
     background-color: #4CAF50;
