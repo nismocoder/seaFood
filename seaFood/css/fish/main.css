@@ -3,14 +3,14 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "logo logo" 
+    grid-template-areas: "nav-main nav-main" 
                          "hero hero"
                          "content content"
                          "newsLetter newsLetter"
                          "footer footer";
 }
 
-.logo {
+/* .logo {
     grid-area: logo;
     height: 50px;
     width: 100vw;
@@ -22,7 +22,7 @@
     font-size: 17px;
     font-weight: bold;
     z-index: 1000;
-}
+} */
 
 .fish {
     width: 100px;
@@ -56,154 +56,43 @@
     opacity: 0.5;
 }
 
-.nav {
-    position: relative;
-    color: #ffffff;  
-    font-size: 20px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-.nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    bottom: 5px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-    width: 100vw;
-    align-items: center;
-}
-
-.nav li {
-    list-style: none;
-    color: black; 
-    border: 2px solid #ffffff;
-    border-radius: 12px;
-    width: 290px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 10px;
-    padding-top: 10px;
-}
-
-/* .nav li:last-child {
-    border-right: none;
-} */
-
-.nav li a {
-    display: inline;
-    /* color: white; */
-    /* text-align: center; */
-    /* padding: 2px 14px; */
-    /* text-decoration: underline; */
-    font-size:24px;
-    transition: 0.5s ease-in-out;
-    transform: scale(0.5);
-    /* font-size: 2em; */
-    background: transparent;
-    padding: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    width: auto;
-    /* margin-top: 10px; */
-}
-
-.nav li a:hover {
-    /* background: rgb(4, 122, 219);
-    padding: 25px; */
-    transform: scale(0.5) translateX(-10px);
-    letter-spacing: 5px;
-    padding: 20px;
-    text-align: center;
+.dark-mode {
+    background-color: rgb(119, 11, 11);
+    color: white;
   }
 
-  /* --------------------------------------- */
-  .nav-mini {
-    position: relative;
-    color: #ffffff;  
-    font-size: 20px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-.nav-mini ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    bottom: 4px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
+.content {
+    grid-area: content;
+    height: auto;
     width: 100vw;
-    align-items: center;
+    background-color: #ffffff;
 }
 
-.nav-mini li {
-    list-style: none;
-    color: black; 
-    border: 2px solid #ffffff;
-    border-radius: 12px;
-    width: 250px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 10px;
-    padding-top: 13px;
-}
 
-/* .nav-mini li:last-child {
-    border-right: none;
-} */
-
-.nav-mini li a {
-    display: inline;
-    /* color: white; */
-    /* text-align: center; */
-    /* padding: 2px 14px; */
-    /* text-decoration: underline; */
-    font-size: 18px;
-    transition: 0.5s ease-in-out;
-    transform: scale(0.5);
-    /* font-size: 2em; */
-    background: transparent;
-    padding: 4px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    width: auto;
-    /* margin-top: 10px; */
-}
-
-.nav-mini li a:hover {
-    transform: scale(0.5) translateX(-10px);
-    letter-spacing: 5px;
+.collapsible {
+    display: flex;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
     padding: 18px;
-    text-align: center;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content2 {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
   }
   /* ------------------------------------------ */
   .seaLifeType {
@@ -304,42 +193,7 @@
     background-repeat: no-repeat;
 } */
 
-.salmonType1 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.salmonType2 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.salmonType3 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.salmonType4 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.salmonType5 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.salmonType6 {
+.salmonType1, .salmonType2, .salmonType3, .salmonType4,.salmonType5, .salmonType6{
     display: flex;
     position: relative;
     width: 100%;
@@ -367,120 +221,14 @@
     padding-top: 30px;
 }
 
-.tunaType1 {
+.tunaType1, .tunaType2, .tunaType3, .tunaType4, .tunaType5, .tunaType6, .tunaType7, .tunaType8, .tunaType9, .tunaType10, .tunaType11, .tunaType12, .tunaType13, .tunaType14, .tunaType15 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType2 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType3 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType4 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType5 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType6 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType7 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType8 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType9 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType10 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType11 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType12 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType13 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType14 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType15 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
   /* -------------------------------------- */
-
-
-.content {
-    grid-area: content;
-    height: auto;
-    width: 100vw;
-    background-color: #ffffff;
-}
-
 
 
 .newsLetter {
