@@ -165,13 +165,14 @@
     height: 50px;
     top: 0;
     position: absolute;
-    background-color: rgb(4, 122, 219);
+    background-color: rgb(4, 90, 219);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     font-size: 17px;
     font-weight: bold;
-    z-index: 2000;
+    /* z-index: 0; */
+    padding-left: 6px;
   }
   
 
@@ -184,8 +185,19 @@
     background-size: 55%;
     background-position: center;
     cursor: pointer;
+    order: 1;
   }
   
+.centerLogo {
+  position: relative;
+  order:2;
+}
+
+.invisible {
+  order: 3;
+  color: rgb(4, 90, 219);
+}
+
   .btn-toggle-nav:hover {
     opacity: 0.3;
   }
@@ -222,10 +234,10 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 37.5px;
+    width: 44px;
     height: calc(100vh - 50px);
     padding: 0 5px;
-    background-color: rgba(92, 163, 243, 0.377);
+    background-color: rgba(128, 184, 248, 0.253);
     z-index: 2000;
     transition: all 0.3s ease-in-out;
   }
