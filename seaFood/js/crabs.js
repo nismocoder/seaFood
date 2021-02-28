@@ -13,19 +13,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// function darkMode() {
-//   var element = document.getElementsByClassName("content");
-//   element.classList.toggle("dark-mode");
-// }
-
-function darkMode() {
-  var element = document.getElementsByClassName('content');
-  // var element = document.querySelector("content");
-  // element.classList.toggle("dark-mode");
-  document.body.classList.toggle("dark-mode");
-}
-
-
 
 let toggleNavStatus = false;
 

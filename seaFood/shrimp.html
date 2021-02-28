@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/shrimp/main.css" type="text/css">
     <link rel="stylesheet" href="css/shrimp/gallery.css" type="text/css">
     <link rel="stylesheet" href="css/shrimp/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/shrimp/nav.css" type="text/css">
 
 
     <style>
@@ -24,13 +25,35 @@
 
     <div class="grid">
 
-        <div class="logo">SEAFOOD
+        <!-- <div class="logo">SEAFOOD
             <div class="fish"></div>
             GUIDE
-        </div>
+        </div> -->
 
 
         <div class="hero">
+
+            <nav class="nav-main">
+                <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+                <div class="centerLogo">
+                    SEAFOOD
+                    <div class="fish"></div>
+                    GUIDE
+                </div>
+                <div class="invisible">d</div>
+            </nav>
+
+            <aside class="nav-sidebar">
+                <ul>
+                    <li><span>Species Info:</span></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="crabs.html">Crabs</a></li>
+                    <li><a href="octopus.html">Octopus</a></li>
+                    <li><a href="lobster.html">Lobsters</a></li>
+                    <li><a href="squid.html">Squid</a></li>
+                </ul>
+            </aside>
+
             <div class="box">
                 <div class="nav">
                     <ul>
@@ -50,7 +73,7 @@
         </div>
 
         <div class="content">
-            <h2>Species Information:</h2>
+            <!-- <h2>Species Information:</h2>
             <div class="seaLifeType">
                 <ul>
                     <li><a href="lobster.html">Lobsters</a></li>
@@ -59,26 +82,37 @@
                     <li><a href="octopus.html">Octopus</a></li>
                     <li><a href="squid.html">Squid</a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="shrimpContainer">
-                <div class="shrimp1">
-                    <h1>Shrimp</h1>
-                    <div class="shrimpPicture1"></div>
 
-                    <div class="shrimpType1">
+                <button type="button" class="collapsible">Pink Shrimp</button>
+                <div class="content2">
 
-                        <h1>1. Pink Shrimp</h1>
-                        <div class="shrimpPic1"></div>
-                        <p>Primarily obtained from the west coast of Florida, these shrimps are really popular in
-                            seafood cuisine.<br>
-                            As the name suggests, these shrimps are generally pink when raw although some can be white
-                            and gray <br>
-                            as well. These shrimps are relatively smaller in size and are also called ‘salad shrimps’
-                            because they<br>
-                            are widely used for serving mild and sweet flavors in shrimp salads.
-                        </p>
+                    <div class="shrimp1">
+                        <h1>Shrimp</h1>
+                        <div class="shrimpPicture1"></div>
+
+                        <div class="shrimpType1">
+
+                            <h1>1. Pink Shrimp</h1>
+                            <div class="shrimpPic1"></div>
+                            <p>Primarily obtained from the west coast of Florida, these shrimps are really popular in
+                                seafood cuisine.<br>
+                                As the name suggests, these shrimps are generally pink when raw although some can be
+                                white
+                                and gray <br>
+                                as well. These shrimps are relatively smaller in size and are also called ‘salad
+                                shrimps’
+                                because they<br>
+                                are widely used for serving mild and sweet flavors in shrimp salads.
+                            </p>
+                        </div>
                     </div>
 
+                </div>
+
+                <button type="button" class="collapsible">Brown Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType2">
 
                         <h1>2. Brown Shrimp</h1>
@@ -92,7 +126,11 @@
                             that these shrimps have to offer.
                         </p>
                     </div>
+                </div>
 
+
+                <button type="button" class="collapsible">White Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType3">
 
                         <h1>3. White Shrimp</h1>
@@ -107,7 +145,11 @@
                             taste, and ease of cleaning.
                         </p>
                     </div>
+                </div>
 
+
+                <button type="button" class="collapsible">Rock Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType4">
 
                         <h1>4. Rock Shrimp</h1>
@@ -121,7 +163,10 @@
                             as compared to buying expensive lobster varieties.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Tiger Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType5">
 
                         <h1>5. Tiger Shrimp</h1>
@@ -137,7 +182,10 @@
                             eating in various other ways.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Spot Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType6">
 
                         <h1>6. Spot Shrimp</h1>
@@ -152,7 +200,10 @@
                             varieties that can grow up to 12 inches.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Striped Harlequin or Bumblebee Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType7">
 
                         <h1>7. Striped Harlequin or Bumblebee Shrimp</h1>
@@ -174,8 +225,10 @@
                             easily eaten up by predators due to their tiny sizes.
                         </p>
                     </div>
+                </div>
 
-
+                <button type="button" class="collapsible">Red Cherry Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType8">
 
                         <h1>8. Red Cherry Shrimp</h1>
@@ -195,7 +248,11 @@
                             supplemental diet or if you have a tank that only houses the Red Cherry shrimps.
                         </p>
                     </div>
+                </div>
 
+
+                <button type="button" class="collapsible">Blue Tiger Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType9">
 
                         <h1>9. Blue Tiger Shrimp</h1>
@@ -222,7 +279,10 @@
                             can prove hazardous to these shrimps.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Blue Bolt Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType10">
 
                         <h1>10. Blue Bolt Shrimp</h1>
@@ -244,7 +304,10 @@
                             and careful feeding.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Snowball Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType11">
 
                         <h1>11. Snowball Shrimp</h1>
@@ -262,7 +325,10 @@
                             predators, will be seen actively swimming around and bringing life to the aquarium.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Crystal Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType12">
 
                         <h1>12. Crystal Shrimp</h1>
@@ -289,7 +355,10 @@
                             tank mates.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Glass or Ghost Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType13">
 
                         <h1>13. Glass or Ghost Shrimp</h1>
@@ -315,7 +384,10 @@
                             appropriate decorations in your tank.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Caridina Babaulti Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType14">
 
                         <h1>14. Caridina Babaulti Shrimp</h1>
@@ -332,7 +404,10 @@
                             stable temperatures, and controlled levels of ammonia and nitrites.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Black King Kong Panda Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType15">
 
                         <h1>15. Black King Kong Panda Shrimp</h1>
@@ -348,7 +423,10 @@
                             extremely hazardous to their health or at times, even fatal.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Amano Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType16">
 
                         <h1>16. Amano Shrimp</h1>
@@ -361,7 +439,10 @@
                             varieties and will a more prominent addition to the tank.
                         </p>
                     </div>
+                </div>
 
+                <button type="button" class="collapsible">Sulawesi/ Cardinal Shrimp</button>
+                <div class="content2">
                     <div class="shrimpType17">
 
                         <h1>17. Sulawesi/ Cardinal Shrimp</h1>
@@ -375,10 +456,11 @@
                             their optimal care.
                         </p>
                     </div>
-
                 </div>
+
             </div>
-            </div>
+        </div>
+
 
 
 
@@ -408,7 +490,7 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About US</a></li>
                     <li><a href="#">FAQ</a></li>
-                  </ul>
+                </ul>
             </div>
 
             <div class="fish2"></div>
@@ -421,5 +503,8 @@
         </div>
 
     </div> <!-- grid -->
+    </div>
+    <script src="js/shrimp.js"></script>
 </body>
+
 </html>

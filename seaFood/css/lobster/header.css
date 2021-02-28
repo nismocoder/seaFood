@@ -19,7 +19,7 @@
         font-weight: 600;
     }
     
-    .lobsterType1 {
+    .lobsterType1, .lobsterType2, .lobsterType3, .lobsterType4, .lobsterType5, .lobsterType6 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -34,7 +34,7 @@
         padding-bottom: 50px;
     }
     
-    .lobsterType1 h1 {
+    .lobsterType1 h1, .lobsterType2 h1,.lobsterType3 h1, .lobsterType4 h1, .lobsterType5 h1, .lobsterType6 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
@@ -42,7 +42,7 @@
         width: 100vw;
     }
     
-    .lobsterType1 p {
+    .lobsterType1 p, .lobsterType2 p, .lobsterType3 p, .lobsterType4 p, .lobsterType5 p, .lobsterType6 p {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -52,174 +52,9 @@
         padding-top: 20px;
     }
     
-    .lobsterType2 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
     
-    .lobsterType2 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
     
-    .lobsterType2 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .lobsterType3 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        background-color: #f1f1f1;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .lobsterType3 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .lobsterType3 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .lobsterType4 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .lobsterType4 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .lobsterType4 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .lobsterType5 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        background-color: #f1f1f1;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .lobsterType5 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .lobsterType5 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .lobsterType6 {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        top: 0;
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    
-    .lobsterType6 h1 {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        text-decoration: underline;
-        width: 100vw;
-    }
-    
-    .lobsterType6 p {
-        display: flex;
-        font-size: 18px;
-        justify-content: center;
-        text-decoration: none;
-        position: relative;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    
-    .tuna h1 {
+    .tuna h1{
         display: flex;
         font-size: 22px;
         justify-content: center;
@@ -231,7 +66,22 @@
         background-color: #ffffff;
         }
     
-        .tunaType1 {
+        .tunaType1, .tunaType2, .tunaType3, .tunaType4, .tunaType5, .tunaType6, .tunaType7, .tunaType8, .tunaType9, .tunaType10 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+
+        .tunaType11, .tunaType12, .tunaType13, .tunaType14, .tunaType15 {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -246,7 +96,16 @@
             padding-bottom: 50px;
         }
         
-        .tunaType1 h1 {
+        .tunaType1 h1, .tunaType2 h1, .tunaType3 h1, .tunaType4 h1, .tunaType5 h1, .tunaType6 h1, .tunaType7 h1, .tunaType8 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+
+        .tunaType9 h1, .tunaType10 h1, .tunaType11 h1, .tunaType12 h1, .tunaType13 h1, .tunaType14 h1, .tunaType15 h1 {
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -255,7 +114,7 @@
             background-color: #f1f1f1;
         }
         
-        .tunaType1 p {
+        .tunaType1 p, .tunaType2 p, .tunaType3 p, .tunaType4 p, .tunaType5 p, .tunaType6 p, .tunaType7 p, .tunaType8 p {
             display: flex;
             font-size: 18px;
             justify-content: center;
@@ -264,467 +123,8 @@
             width: 100vw;
             padding-top: 20px;
         }
-    
-        .tunaType2 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType2 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType2 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType3 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType3 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType3 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType4 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType4 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType4 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType5 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType5 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType5 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType6 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType6 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType6 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType7 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType7 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType7 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType8 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType8 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType8 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType9 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType9 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType9 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType10 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType10 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType10 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType11 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType11 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType11 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType12 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType12 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType12 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType13 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType13 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType13 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType14 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #ffffff;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType14 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-        }
-        
-        .tunaType14 p {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            width: 100vw;
-            padding-top: 20px;
-        }
-    
-        .tunaType15 {
-            display: flex;
-            font-size: 18px;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            top: 0;
-            width: 100vw;
-            height: auto;
-            flex-direction: column;
-            text-align: center;
-            background-color: #f1f1f1;
-            padding-bottom: 50px;
-        }
-        
-        .tunaType15 h1 {
-            display: flex;
-            font-size: 20px;
-            justify-content: center;
-            text-decoration: underline;
-            width: 100vw;
-            background-color: #f1f1f1;
-        }
-        
-        .tunaType15 p {
+
+        .tunaType9 p, .tunaType10 p, .tunaType11 p, .tunaType12 p, .tunaType13 p, .tunaType14 p, .tunaType15 p {
             display: flex;
             font-size: 18px;
             justify-content: center;

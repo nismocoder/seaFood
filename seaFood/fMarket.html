@@ -6,6 +6,7 @@
     <title>SeaFood!</title>
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/nav.css" type="text/css">
     <link rel="stylesheet" href="css/fMarket/main.css" type="text/css">
     <link rel="stylesheet" href="css/fMarket/main.css" type="text/css">
     <link rel="stylesheet" href="css/fMarket/gallery.css" type="text/css">
@@ -21,17 +22,38 @@
 
     <div class="grid">
     
-        <div class="logo">SEAFOOD
+        <!-- <div class="logo">SEAFOOD
             <div class="fish"></div>
             GUIDE
-        </div>
+        </div> -->
     
+        <nav class="nav-main">
+            <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+            <div class="centerLogo">
+                SEAFOOD
+                <div class="fish"></div>
+                GUIDE
+            </div>
+            <div class="invisible">d</div>
+        </nav>
+
+        <aside class="nav-sidebar">
+            <ul>
+                <li><span>Species Info:</span></li>
+                <li><a href="fish.html">Fish</a></li>
+                <li><a href="crabs.html">Crabs</a></li>
+                <li><a href="shrimp.html">Shrimp</a></li>
+                <li><a href="lobster.html">Lobsters</a></li>
+                <li><a href="octopus.html">Octopus</a></li>
+                <li><a href="squid.html">Squid</a></li>
+            </ul>
+        </aside>
 
         <div class="hero">
             <div class="box">
                 <div class="nav">
                     <ul>
-                        <li><a href="seaFoodInfo.html">SeaFood Info.</a></li>
+                        <li><a href="seaFoodInfo.html">SeaFood Info</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="restaurants.html">Restaurants</a></li>
                     </ul>
@@ -40,7 +62,7 @@
         </div>
     
         <div class="content">
-            <h2>The top 10 Largest Fish Markets in the world!</h2>
+            <h1>The top 10 Largest Fish Markets in the world!</h1>
             <div class="marketList">
                 <ol class="Left">
                     <li><a href="https://www.tsukiji.or.jp/english/">1. Toyosu Japan</a></li>

@@ -31,6 +31,8 @@
   
 
 .fish {
+    display: flex;
+    position: relative;
     width: 100px;
     height: 100%;
     background-image: url("../../assets/images/fish.png");
@@ -38,6 +40,7 @@
     background-size: 55%;
     background-position: center;
     cursor: pointer;
+    color:rgb(29, 28, 28);
 }
 
 .box {
@@ -71,14 +74,21 @@
     grid-area: content;
     height: auto;
     width: 100vw;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #f1f1f1;
 }
 
+.content button {
+  display: flex;
+  position: relative;
+  right: 0;
+  top: 0;
+}
 
 .collapsible {
     display: flex;
-    background-color: #777;
-    color: white;
+    background-color: rgba(170, 170, 170, 0);
+    color: #142c41;
     cursor: pointer;
     padding: 18px;
     width: 50%;
@@ -88,10 +98,15 @@
     font-size: 15px;
     justify-content: center;
     margin: 10px;
+    border: 2px solid #142c41;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
   }
-  
+
+
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: rgb(89, 125, 243);
   }
   
   .content2 {

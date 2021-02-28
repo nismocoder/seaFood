@@ -3,7 +3,7 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "logo logo" 
+    grid-template-areas: "nav-main nav-main" 
                          "hero hero"
                          "content content"
                          "newsLetter newsLetter"
@@ -35,7 +35,7 @@
 
 .box {
     position: relative; 
-    height: 20vh;
+    height: 26vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -55,98 +55,6 @@
     opacity: 0.5;
 }
 
-.nav {
-    position: relative;
-    color: #ffffff;  
-    font-size: 30px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-.nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    bottom: 5px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-}
-
-.nav li {
-    border-right: 1px solid #bbb;
-    line-height: 100%;
-}
-
-.nav li:last-child {
-    border-right: none;
-}
-
-.nav li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 2px 14px;
-    text-decoration: underline;
-    font-size:24px;
-    transition: 0.5s ease-in-out;
-}
-
-.nav li a:hover {
-    background: rgb(4, 122, 219);
-    padding: 25px;
-  }
-
-  /* --------------------------------------- */
-  .nav-mini {
-    position: relative;
-    color: #ffffff;  
-    font-size: 30px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-.nav-mini ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    bottom: 5px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-}
-
-.nav-mini li {
-    border-right: 1px solid #bbb;
-    line-height: 100%;
-}
-
-.nav-mini li:last-child {
-    border-right: none;
-}
-
-.nav-mini li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 2px 14px;
-    text-decoration: underline;
-    font-size:18px;
-    transition: 0.5s ease-in-out;
-}
-
-.nav-mini li a:hover {
-    background: rgb(4, 122, 219);
-    padding: 25px;
-  }
   /* ------------------------------------------ */
   .seaLifeType {
     position: relative;
@@ -216,47 +124,44 @@
     justify-content: center;
 }
 
-.lobsterType1 {
+.collapsible {
+    display: flex;
+    background-color: rgba(170, 170, 170, 0);
+    color: #142c41;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #142c41;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+  }
+
+
+  .active, .collapsible:hover {
+    background-color: rgb(89, 125, 243);
+  }
+  
+  .content2 {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+.lobsterType1, .lobsterType2, .lobsterType3, .lobsterType4, .lobsterType5, .lobsterType6 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.lobsterType2 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.lobsterType3 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.lobsterType4 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.lobsterType5 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.lobsterType6 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
 
 .tuna{
     display: flex;
@@ -271,105 +176,14 @@
     padding-top: 30px;
 }
 
-.tunaType1 {
+.tunaType1, .tunaType2, .tunaType3, .tunaType4, .tunaType5, .tunaType6,.tunaType7, .tunaType8 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.tunaType2 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType3 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType4 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType5 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType6 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType7 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType8 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType9 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType10 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType11 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType12 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType13 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType14 {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.tunaType15 {
+.tunaType9, .tunaType10, .tunaType11, .tunaType12, .tunaType13, .tunaType14, .tunaType15{
     display: flex;
     position: relative;
     width: 100%;
@@ -384,6 +198,7 @@
     width: 100vw;
     background-color: #ffffff;
     padding-bottom: 30px;
+    margin-top: 40px;
 }
 
 
