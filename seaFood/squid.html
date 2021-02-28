@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/squid/main.css" type="text/css">
     <link rel="stylesheet" href="css/squid/gallery.css" type="text/css">
     <link rel="stylesheet" href="css/squid/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/squid/nav.css" type="text/css">
 
 
     <style>
@@ -24,13 +25,35 @@
 
     <div class="grid">
 
-        <div class="logo">SEAFOOD
+        <!-- <div class="logo">SEAFOOD
             <div class="fish"></div>
             GUIDE
-        </div>
+        </div> -->
 
 
         <div class="hero">
+
+            <nav class="nav-main">
+                <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+                <div class="centerLogo">
+                    SEAFOOD
+                    <div class="fish"></div>
+                    GUIDE
+                </div>
+                <div class="invisible">d</div>
+            </nav>
+
+            <aside class="nav-sidebar">
+                <ul>
+                    <li><span>Species Info:</span></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="crabs.html">Crabs</a></li>
+                    <li><a href="shrimp.html">Shrimp</a></li>
+                    <li><a href="lobster.html">Lobsters</a></li>
+                    <li><a href="octopus.html">Octopus</a></li>
+                </ul>
+            </aside>
+
             <div class="box">
                 <div class="nav">
                     <ul>
@@ -42,7 +65,7 @@
                 <div class="nav-mini">
                     <ul>
                         <li><a href="#">Sushi</a></li>
-                        <li><a href="seaFoodInfo.html">Seafood Info.</a></li>
+                        <li><a href="seaFoodInfo.html">Seafood Info</a></li>
                         <li><a href="#">Recipes</a></li>
                     </ul>
                 </div>
@@ -50,7 +73,7 @@
         </div>
 
         <div class="content">
-            <h2>Species Information:</h2>
+            <!-- <h2>Species Information:</h2>
             <div class="seaLifeType">
                 <ul>
                     <li><a href="lobster.html">Lobsters</a></li>
@@ -59,8 +82,12 @@
                     <li><a href="shrimp.html">Shrimp</a></li>
                     <li><a href="octopus.html">Octopus</a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="squidContainer">
+
+                <button type="button" class="collapsible">Atlantic or European squid</button>
+                <div class="content2">
+
                 <div class="squid1">
                     <h1>Squid</h1>
                     <div class="squidPicture1"></div>
@@ -78,7 +105,13 @@
                                updated the latest ratings.
                         </p>
                     </div>
+                </div>
 
+
+                </div>
+
+                <button type="button" class="collapsible">Japanese flying squid</button>
+                <div class="content2">
                     <div class="squidType2">
 
                         <h1>2. Japanese flying squid</h1>
@@ -88,7 +121,10 @@
                               “A stock assessment is carried out, and it is more regulated.” Go forth and eat Japanese flying squid!
                         </p>
                     </div>
+                </div>
 
+                    <button type="button" class="collapsible">Humboldt or jumbo squid</button>
+                    <div class="content2">
                     <div class="squidType3">
 
                         <h1>3. Humboldt or jumbo squid</h1>
@@ -98,7 +134,11 @@
                             should be eaten only very, very occasionally,” says Clarke.
                         </p>
                     </div>
+                </div>
 
+
+                    <button type="button" class="collapsible">Argentine short fin</button>
+                    <div class="content2">
                     <div class="squidType4">
 
                         <h1>4. Argentine short fin</h1>
@@ -109,7 +149,11 @@
                              In other words, avoid.
                         </p>
                     </div>
+                </div>
 
+
+                    <button type="button" class="collapsible">Indian squid</button>
+                    <div class="content2">
                     <div class="squidType5">
 
                         <h1>5. Indian squid</h1>
@@ -120,7 +164,11 @@
                               “But there is no current stock assessment available.”
                         </p>
                     </div>
+                </div>
 
+
+                    <button type="button" class="collapsible">Sparkling Enope Squid/Firefly Squid</button>
+                    <div class="content2">
                     <div class="squidType6">
 
                         <h1>6. Sparkling Enope Squid/Firefly Squid</h1>
@@ -131,13 +179,14 @@
                               and 6,500 tonnes.
                         </p>
                     </div>
+                </div>
 
 
 
 
                 </div>
             </div>
-            </div>
+            
 
 
 
@@ -179,6 +228,8 @@
             </div>
         </div>
 
+    </div>
     </div> <!-- grid -->
+    <script src="js/squid.js"></script>
 </body>
 </html>
