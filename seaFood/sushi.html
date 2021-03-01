@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi!</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/main.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/header.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/main.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/gallery.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/sushi/nav.css" type="text/css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="grid">
+
+        <!-- <div class="logo">SEAFOOD
+            <div class="fish"></div>
+            GUIDE
+        </div> -->
+
+
+        <div class="hero">
+
+            <nav class="nav-main">
+                <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+                <div class="centerLogo">
+                    SEAFOOD
+                    <div class="fish"></div>
+                    GUIDE
+                </div>
+                <div class="invisible">d</div>
+            </nav>
+
+            <aside class="nav-sidebar">
+                <ul>
+                    <li><span>Species Info:</span></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="crabs.html">Crabs</a></li>
+                    <li><a href="shrimp.html">Shrimp</a></li>
+                    <li><a href="lobster.html">Lobsters</a></li>
+                    <li><a href="squid.html">Squid</a></li>
+                </ul>
+            </aside>
+
+
+            <div class="box">
+                <div class="nav">
+                    <ul>
+                        <li><a href="restaurants.html">Restaurants</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fMarket.html">Fish Markets</a></li>
+                    </ul>
+                </div>
+                <div class="nav-mini">
+                    <ul>
+                        <li><a href="#">Sushi</a></li>
+                        <li><a href="seaFoodInfo.html">Seafood Info</a></li>
+                        <li><a href="#">Recipes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="octopusContainer">
+
+                <button type="button" class="collapsible">Sushi Types</button>
+                <div class="content2">
+
+
+                    <div class="octo1">
+                        <!-- <h1>Octopus</h1>
+                        <div class="octopusPicture1"></div> -->
+
+                        <div class="octoType1">
+
+                            <h1>1. Nigiri</h1>
+                            <div class="nigiriPic1"></div>
+                            <p>	A topping, usually fish, served on top of sushi rice. <br>
+                                Not all nigiri is raw, though this dish is best for people who want to appreciate the <br>
+                                flavor of the fish, shellfish, or other toppings
+                            </p>
+
+                            <h1>2. Sashimi</h1>
+                            <div class="sashimi"></div>
+                            <p>Fish or shellfish served alone (no rice). <br>
+                                This is best for people who really love to taste the fish or shellfish since it comes<br>
+                                 with nothing else.
+                            </p>
+
+                            <h1>3. Maki</h1>
+                            <div class="maki"></div>
+                            <p>Rice and filling wrapped in seaweed. <br>
+                                This is what most people think of when they think of sushi rolls
+                            </p>
+
+                            <h1>4. Uramaki</h1>
+                            <div class="uramaki"></div>
+                            <p>Similar to the above, but rice is on the outside and seaweed wraps around the filling. <br>
+                                These rolls often have lots of toppings and sauces — they may either be cooked or raw.
+                            </p>
+
+                            <h1>5. Temaki</h1>
+                            <div class="temaki"></div>
+                            <p>Sushi that has been hand-rolled into a cone shape. <br>
+                                The cones are not as easy to share as the rolls (though very delicious!)
+                            </p>
+
+                            <h1>6. Temari</h1>
+                            <div class="temari"></div>
+                            <p> Temari sushi is made with a mix of colorful toppings and sushi rice that are <br>
+                                formed into ball shapes.
+                            </p>
+
+                            <h1>7. Chirashi</h1>
+                            <div class="chirashi"></div>
+                            <p> Chirashizushi literally means ‘scattered sushi’. <br>
+                                Instead of the typically formed sushi, you get a colorful mix of ingredients<br>
+                                 scattered over the sushi rice that is served in a Hangiri or a large serving platter.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <button type="button" class="collapsible">Types of Sashimi</button>
+                <div class="content2">
+                    <div class="octoType2">
+
+                        <h1>Ahi - Tuna</h1>
+                        <div class="ahiSashimi"></div>
+
+
+                        <h1>Aji - Spanish Mackerel</h1>
+                        <div class="ajiSashimi"></div>
+
+
+                        <h1>Amaebi - Sweet Shrimp</h1>
+                        <div class="amaebiSashimi"></div>
+
+
+                        <h1>Anago - Saltwater Eel — usually deep-fried or boiled</h1>
+                        <div class="anagoSashimi"></div>
+
+
+                        <h1>Aoyagi - Round Clam</h1>
+                        <div class="aoyagiSashimi"></div>
+
+
+                        <h1>Bincho - Albacore White Tuna</h1>
+                        <div class="binchoSashimi"></div>
+
+
+                        <h1>Katsuo - Skipjack Tuna</h1>
+                        <div class="katsuoSashimi"></div>
+
+
+                        <h1>Ebi - Tiger Shrimp</h1>
+                        <div class="ebiSashimi"></div>
+
+
+                        <h1>Escolar - Butterfish</h1>
+                        <div class="escolarSashimi"></div>
+
+
+                        <h1>Hamachi - YellowTail Belly</h1>
+                        <div class="hamachiSashimi"></div>
+
+
+                        <h1>Hirame - Halibut</h1>
+                        <div class="hirameSashimi"></div>
+
+
+                        <h1>Hokigai - Surf Clam</h1>
+                        <div class="hokigaiSashimi"></div>
+
+
+                        <h1>Hotate - Scallop</h1>
+                        <div class="hotateSashimi"></div>
+
+
+                        <h1>Ika - Squid</h1>
+                        <div class="ikaSashimi"></div>
+
+
+                        <h1>Ikura - Salmon Roe (fish eggs)</h1>
+                        <div class="ikuraSashimi"></div>
+
+
+                        <h1>Iwashi - Sardine</h1>
+                        <div class="iwashiSashimi"></div>
+
+
+                        <h1>Kani - Crab Meat</h1>
+                        <div class="kaniSashimi"></div>
+
+
+                        <h1>Kanpachi - Amberjack</h1>
+                        <div class="kanpachiSashimi"></div>
+
+
+                        <h1>Maguro - Tuna</h1>
+                        <div class="maguroSashimi"></div>
+
+
+                        <h1>Saba - Mackerel</h1>
+                        <div class="sabaSashimi"></div>
+
+
+                        <h1>Sake - Salmon</h1>
+                        <div class="sakeSashimi"></div>
+
+
+                        <h1>Sake Toro - Salmon Belly</h1>
+                        <div class="sakeToroSashimi"></div>
+
+
+                        <h1>Tai - Red Snapper</h1>
+                        <div class="taiSashimi"></div>
+
+
+                        <h1>Tako - Octopus</h1>
+                        <div class="takoSashimi"></div>
+
+
+                        <h1>Toro - Blue Fin Belly</h1>
+                        <div class="toroSashimi"></div>
+
+
+                        <h1>Tsubugai - Whelk Clam</h1>
+                        <div class="tsubugaiSashimi"></div>
+
+
+                        <h1>Umi Masu - Ocean Trout</h1>
+                        <div class="umiSashimi"></div>
+
+
+                        <h1>Unagi - Barbequed Freshwater Eel</h1>
+                        <div class="unagiSashimi"></div>
+
+
+                        <h1>Uni - Sea Urchin</h1>
+                        <div class="uniSashimi"></div>
+
+                    </div>
+                </div>
+
+
+                <button type="button" class="collapsible">XXXX</button>
+                <div class="content2">
+                    <div class="octoType3">
+
+                        <h1>Aji - Spanish Mackerel</h1>
+                        <div class="octoPic3"></div>
+                        <p>Because of the small blue rings that look like they’re painted around their bodies, the
+                            blue-ringed octopus are not<br>
+                            difficult to spot. Like other octopus, they can camouflage themselves and turn any color
+                            they need to be for protection,<br>
+                            but these blue rings always remain.<br><br>
+
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <button type="button" class="collapsible">California Two-Spot Octopus</button>
+                <div class="content2">
+                    <div class="octoType4">
+
+                        <h1>4. California Two-Spot Octopus</h1>
+                        <div class="octoPic4"></div>
+                        <p>With a very distinct appearance, the California Two-Spot octopus is also called the
+                            Bimac
+                            octopus. Blue spots of various shades are<br>
+                            found around their eyes, and their bodies get to roughly seven inches long, although
+                            they have arms that can reach up to 25 feet wide.<br><br>
+
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <button type="button" class="collapsible">Caribbean Reef Octopus</button>
+                <div class="content2">
+                    <div class="octoType5">
+
+                        <h1>5. Caribbean Reef Octopus</h1>
+                        <div class="octoPic5"></div>
+                        <p>With a beautiful blue-green color, the Caribbean Reef octopus is stunning to look
+                            at.
+                            Since they can camouflage themselves, they can<br>
+                            also have various shades of brown throughout their bodies. They are very similar
+                            to the
+                            Common octopus, and if you’re curious how <br>
+                            to tell the two animals apart, simply look at their eyes.<br><br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <button type="button" class="collapsible">Common Octopus</button>
+                <div class="content2">
+                    <div class="octoType6">
+
+                        <h1>6. Common Octopus</h1>
+                        <div class="octoPic6"></div>
+                        <p>The Common octopus varies greatly in size. They can range from 12 to 36
+                            inches in length
+                            and can weigh anywhere between seven and 20<br>
+                            pounds. Because of this variety, the Common octopus is often confused with
+                            other types
+                            of octopus. If you look at their eyes, they<br>
+                            can seem too big for the octopus’ body, and their heads are quite large as
+                            well.<br><br>
+                        </p>
+                    </div>
+                </div>
+
+
+                <button type="button" class="collapsible">East Pacific Red Octopus</button>
+                <div class="content2">
+                    <div class="octoType7">
+
+                        <h1>7. East Pacific Red Octopus</h1>
+                        <div class="octoPic7"></div>
+                        <p>The East Pacific Red octopus is very small in size and weighs only five
+                            ounces. Their
+                            body is three times smaller than the length<br>
+                            of their arms, and as adults, their overall length can get up to
+                            approximately 20
+                            inches.<br><br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div> <!-- content2 -->
+        </div>
+
+
+
+        <div class="newsLetter">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h2>Subscribe to our Newsletter</h2>
+
+                </div>
+
+                <div class="container" style="background-color:white">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email" name="mail" required>
+
+                </div>
+
+                <div class="container">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+
+            <div class="bNav">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="fish2"></div>
+
+            <div class="contact-container">
+                <div class="phone">(800)-800-8000</div>
+                <div class="email">seafoodinfo@seafoodinfo.com</div>
+                <div class="smIcons">FB,TW,Pin</div>
+            </div>
+        </div>
+
+    </div> <!-- grid -->
+    <script src="js/sushi.js"></script>
+</body>
+
+</html>

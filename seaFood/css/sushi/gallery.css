@@ -1,0 +1,539 @@
+.hero {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    background: url("../../Assets/images/sushi/hero2.jpg");
+    height: 575px;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    align-items: flex-end;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.octopusPicture1 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/aaa.jfif");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.nigiriPic1 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/nigiri.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.sashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/sashimi.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.maki {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/maki.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.uramaki {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/uramaki.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.temaki {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/temaki.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.temari {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/temari.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.chirashi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/chirashi.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+
+
+.ahiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/ahiSashimi.png");
+  justify-content: center;
+  background-position: center;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.ajiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/ajiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.amaebiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/amaebiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.anagoSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/anagoSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.aoyagiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/aoyagiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.binchoSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/binchoSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.katsuoSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/katsuoSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.ebiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/ebiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.escolarSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/escolarSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.hamachiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/hamachiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.hirameSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/HirameSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.hokigaiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/HokigaiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.hotateSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/HotateSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.ikaSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/ikaSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.ikuraSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/Ikura.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.iwashiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/IwashiSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.kaniSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/Kanisashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.kanpachiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/kanpachiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.maguroSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/maguroSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.sabaSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/sabaSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.sakeSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/sakeSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.sakeToroSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/SakeToroSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.taiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/taiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.takoSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/takoSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.toroSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/toroSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.tsubugaiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/tsubugaiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.umiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/umiMasuSashimi.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.unagiSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/UnagiSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.uniSashimi {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/UniSashimi.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
