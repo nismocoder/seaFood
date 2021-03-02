@@ -51,3 +51,85 @@
         width: 100vw;
         padding-top: 20px;
     }
+
+
+
+
+
+
+
+
+    .tigerRoll, .crunchRoll, .rainbowRoll, .californiaRoll, .caterpillarRoll, .vegetableRoll, .SurfandTurfRoll, .volcanoRoll {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    }
+    
+    .PhiladelphiaRoll, .dynamiteRoll, .dragonRoll, .spicyTunaRoll, .SpiderRoll, .ShrimpTempuraRoll, .tempuraRoll {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ffff;
+        padding-bottom: 50px;
+    }
+
+    
+    .tigerRoll h1,.crunchRoll h1,.rainbowRoll h1,.californiaRoll h1,.caterpillarRoll h1,.vegetableRoll h1,.SurfandTurfRoll h1,.volcanoRoll h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #f1f1f1;
+    }
+
+        /* .octoType3 h1:nth-child(odd)  */
+    .PhiladelphiaRoll h1,.dynamiteRoll h1,.dragonRoll h1,.spicyTunaRoll h1,.SpiderRoll h1,.ShrimpTempuraRoll h1,.tempuraRoll h1
+    {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff;
+    }
+    
+    .tigerRoll p, .crunchRoll p, .rainbowRoll p, .californiaRoll p, .caterpillarRoll p, .vegetableRoll p, .SurfandTurfRoll p, .volcanoRoll p{
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        background-color: #f1f1f1;
+    }
+
+    .PhiladelphiaRoll p, .dynamiteRoll p, .dragonRoll p, .spicyTunaRoll p, .SpiderRoll p, .ShrimpTempuraRoll p, .tempuraRoll p{
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        background-color: #ffff;
+    }

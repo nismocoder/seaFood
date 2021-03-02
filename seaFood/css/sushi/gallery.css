@@ -537,3 +537,231 @@ img {vertical-align: middle;}
   margin-bottom: 80px;
   padding-top: 30px;
 }
+
+/* --------------------------------------------------------- */
+
+.tigerRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/tigerRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  /* margin-bottom: 80px; */
+  padding-top: 30px;
+}
+
+
+.philadelphiaRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/philadelphiaRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.crunchRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/crunchRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.dynamiteRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/dynamiteRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.rainbowRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/rainbowRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.dragonRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/dragonRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.californiaRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/californiaRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.spicyTunaRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/spicyTunaRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.caterpillarRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/caterpillarRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.spiderRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/spiderRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.vegetableRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/vegetableRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.shrimpTempuraRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/shrimpTempuraRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.surfandTurfRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/surfandTurfRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.tempuraRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/tempuraRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+
+.volcanoRoll {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/sushi/volcanoRoll.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
