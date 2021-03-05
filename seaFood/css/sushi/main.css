@@ -145,7 +145,7 @@
     background-color: #f1f1f1;
   }
 
-  .octo1{
+  .octo1, .octo2, .octo3{
     display: flex;
     position: relative;
     width: 100vw;
@@ -156,12 +156,14 @@
     justify-content: center;
 }
 
-.octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7 {
+
+
+/* .octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7 {
     display: flex;
     position: relative;
     width: 100%;
     height: auto;
-}
+} */
 
 
   /* -------------------------------------- */

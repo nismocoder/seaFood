@@ -8,6 +8,61 @@
     padding-bottom: 20px;
     padding-top: 40px;
     }
+
+    .octo1 h1:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    .octo1 h1:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octo1 p:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octo2 h1 {
+        display: flex;
+        font-size: 22px;
+        justify-content: center;
+        text-decoration: underline;
+        position: relative;
+        top: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        }
+
+        /* .octoType2 h1:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+    
+        .octoType2 h1:nth-child(even) {
+            background-color: #ffff;
+        } */
+
+
+        .octo3 h1 {
+            display: flex;
+            font-size: 22px;
+            justify-content: center;
+            text-decoration: underline;
+            position: relative;
+            top: 0;
+            padding-bottom: 20px;
+            padding-top: 40px;
+            }
+
+            .octo3 h1:nth-child(odd) {
+                background-color: #f1f1f1;
+            }
+
+            .octo3 h1:nth-child(even) {
+                background-color: #ffff;
+            }
+
+            .octo3 p:nth-child(even) {
+                background-color: #ffff;
+            }
     
     .content h2 {
         justify-content: center;
@@ -30,10 +85,11 @@
         height: auto;
         flex-direction: column;
         text-align: center;
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
         padding-bottom: 50px;
     }
     
+
     .octoType1 h1, .octoType2 h1, .octoType3 h1, .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1 {
         display: flex;
         font-size: 20px;
@@ -42,6 +98,14 @@
         width: 100vw;
     }
     
+    .octoType2 h1:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    .octoType2 h1:nth-child(even) {
+        background-color: #ffff;
+    }
+
     .octoType1 p, .octoType2 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p {
         display: flex;
         font-size: 18px;
@@ -50,8 +114,31 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
 
+    .octoType6 ul {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .octoType6 ul li {
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* .octoType2 h1:nth-child(odd) {
+        background-color:#f1f1f1;
+    }
+
+    .octoType2 h1:nth-child(even) {
+        background-color:#ffff;
+    } */
 
 
 
@@ -70,7 +157,7 @@
         height: auto;
         flex-direction: column;
         text-align: center;
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
         padding-bottom: 50px;
     }
     
@@ -118,11 +205,11 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
-        margin-bottom: 30px;
+        padding-bottom: 30px;
         background-color: #f1f1f1;
     }
 
-    .PhiladelphiaRoll p, .dynamiteRoll p, .dragonRoll p, .spicyTunaRoll p, .SpiderRoll p, .ShrimpTempuraRoll p, .tempuraRoll p{
+    .philadelphiaRoll p, .dynamiteRoll p, .dragonRoll p, .spicyTunaRoll p, .spiderRoll p, .shrimpTempuraRoll p, .tempuraRoll p{
         display: flex;
         font-size: 18px;
         justify-content: center;
