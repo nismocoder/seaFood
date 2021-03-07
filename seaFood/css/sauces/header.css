@@ -1,0 +1,280 @@
+.octo1 h1 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    }
+    
+    .content h2 {
+        justify-content: center;
+        font-size: 22px;
+        padding:40px;
+        position: relative;
+        display: flex;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    
+    .octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7, .octoType8, .octoType9 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        /* margin-bottom: 30px; */
+        /* padding-bottom: 50px; */
+    }
+
+    .octoType1-2, .octoType1-3, .octoType1-4, .octoType1-5, .octoType1-6, .octoType1-7, .octoType1-8, .octoType1-9, .octoType1-10 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        margin-bottom: 50px;
+    }
+
+    .octoType2-2, .octoType2-3, .octoType2-4, .octoType2-5, .octoType2-6 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    .octoType2, .octoType2-2, .octoType2-3, .octoType2-4, .octoType2-5, .octoType2-6, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7, .octoType8, .octoType9 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    }
+
+    
+    /* --------------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+    .octoType1 h1, .octoType2 h1, .octoType3 h1, .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+    .octoType1 h1, .octoType1-3 h1, .octoType1-5 h1, .octoType1-7 h1, .octoType1-9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff; 
+    }
+
+    .octoType1-2 h1, .octoType1-4 h1, .octoType1-5 h1, .octoType1-6 h1, .octoType1-8 h1, .octoType1-10 h1, .octoType2 h1, .octoType3 h1, .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+     .octoType2-2 h1, .octoType2-4 h1, .octoType2-6 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+    .octoType2 h1, .octoType2-3 h1, .octoType2-5 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff; 
+    }
+
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType3 h1, .octoType3-2 h1, .octoType3-3 h1, .octoType3-4 h1, .octoType3-5 h1, .octoType3-6 h1, .octoType3-7 h1, .octoType3-8 h1, .octoType3-9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType4 h1, .octoType4-2 h1, .octoType4-3 h1, .octoType4-4 h1, .octoType4-5 h1, .octoType4-6 h1, .octoType4-7 h1 , .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType5 h1, .octoType5-2 h1, .octoType5-3 h1, .octoType5-4 h1, .octoType5-5 h1, .octoType5-6 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType6 h1, .octoType6-2 h1, .octoType6-3 h1, .octoType6-4 h1, .octoType6-5 h1, .octoType6-6 h1, .octoType6-7 h1, .octoType6-8 h1, .octoType6-9 h1, .octoType6-10 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+    /* --------------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType1 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        /* padding-top: 20px; */
+    }
+
+    /* .octoType2 p:nth-child(even) {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        background-color: #ffff;
+    } */ 
+
+    .octoType1 p, .octoType1-3 p, .octoType1-5 p, .octoType1-7 p, .octoType1-9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        background-color: #ffff;
+        padding-bottom: 40px;
+    }
+
+    .octoType1-2 p, .octoType1-3 p, .octoType1-4 p, .octoType1-6 p, .octoType1-8 p, .octoType1-10 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType2 p, .octoType2-2 p, .octoType2-3 p, .octoType2-4 p, .octoType2-5 p, .octoType2-6 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        /* padding-top: 20px; */
+    }
+
+    .octoType2 p, .octoType2-3 p, .octoType2-5 p {
+        background-color: #ffff;
+    }
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType3 p, .octoType3-2 p, .octoType3-3 p, .octoType3-4 p, .octoType3-5 p, .octoType3-6 p, .octoType3-7 p, .octoType3-8 p, .octoType3-9 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType4 p, .octoType4-2 p, .octoType4-3 p, .octoType4-4 p, .octoType4-5 p, .octoType4-6 p, .octoType4-7 p, .octoType3-9 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType5 p, .octoType5-2 p, .octoType5-3 p, .octoType5-4 p, .octoType5-5 p, .octoType5-6 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType6 p, .octoType6-2 p, .octoType6-3 p, .octoType6-4 p, .octoType6-5 p, .octoType6-6 p, .octoType6-7 p, .octoType6-8 p, .octoType6-9 p, .octoType6-10 p, .octoType7 p, .octoType8 p, .octoType9 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }

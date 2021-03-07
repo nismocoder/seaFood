@@ -1,0 +1,775 @@
+.hero {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    background: url("../../Assets/images/sauceMain2.jpg");
+    height: 575px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    align-items: flex-end;
+}
+
+/* ---------------------- slideshow---------------------------- */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.mySlidesfade img {
+    height: 300px;
+    width: auto;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* ---------------------- slideshow end---------------------------- */
+.mapContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#map {
+  display: flex;
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 75%;
+  /* The width is the width of the web page */
+  justify-content: center;
+}
+
+/* ------------------------------------- */
+
+.octopusPicture1 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/dipMain2.jfif");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.octopusPicture1-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/crabMain.jpg");
+  justify-content: center;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.octopusPicture1-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/cocktailSauceMain.jpg");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.octopusPicture1-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/saucesMain.jfif");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.octopusPicture1-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/octMain.png");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.octopusPicture1-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/calamariMain.jpg");
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.octoPic1 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/parsley.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+} 
+
+
+.octoPic1-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/SmokedRomesco\ Sauce.jfif");
+  justify-content: center;
+  background-position: center;
+} 
+
+.octoPic1-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/herbSauce.jfif");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+} 
+
+.octoPic1-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/rich-tomato.jpg");
+  justify-content: center;
+  background-position: center;
+} 
+
+.octoPic1-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/mint.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+} 
+
+.octoPic1-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/lemon.jpg");
+  justify-content: center;
+  background-position: center;
+} 
+
+.octoPic1-7 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/salmSauce.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+} 
+
+.octoPic1-8 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/redWine.jpg");
+  justify-content: center;
+  background-position: center;
+} 
+
+.octoPic1-9 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/tomatoGinger.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+} 
+
+.octoPic1-10 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/fish/sauces/sweetnsour.jpg");
+  justify-content: center;
+  background-position: center;
+} 
+
+
+
+.octoPic2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/brandy.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff; 
+
+}
+
+.octoPic2-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/chive.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic2-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/butter.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+}
+
+.octoPic2-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/diableSauce.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic2-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/tartar.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #ffff;
+}
+
+.octoPic2-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/crab/ponzu.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/CrosseNBlackwell.png");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/oldBaySauce.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/stone.png");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/golds.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/Frisch.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/Kraft.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-7 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/SweetBaby.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-8 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/Gourmaise.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic3-9 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/shrimp/THUMB.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/ClassicThermidor.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/lemon.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/shallot.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/green.png");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/asianSpices.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/truf.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic4-7 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/lobster/random.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+
+
+
+
+.octoPic5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/chili.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic5-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/ancho.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic5-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/BlackBean.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic5-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/Takoyakisauce.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic5-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/Kewpiesauce.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic5-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/octoTempura.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/romesco.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-2 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/marinara.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-3 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/garlicLemon.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-4 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/chipotleAoli.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-5 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/LemonBasil.jfif");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-6 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/ranch.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-7 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/smokedChipotle.JPG");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-8 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/creamyChipotle.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-9 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/redSauce.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic6-10 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/sweetOrange.jpeg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic7 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/7.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
+
+
+.octoPic8 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/8.jpg");
+  justify-content: center;
+  background-position: center;
+}
+
+.octoPic9 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/octopus/9.jpg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
+
+.octoPic9 {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  background-image: url("../../Assets/images/squid/sweetOrange.jpeg");
+  justify-content: center;
+  background-position: center;
+  background-color: #f1f1f1;
+}
