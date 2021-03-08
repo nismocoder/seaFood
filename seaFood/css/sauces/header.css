@@ -47,7 +47,7 @@
         flex-direction: column;
         text-align: center;
         background-color: #f1f1f1;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
     }
 
     .octoType2-2, .octoType2-3, .octoType2-4, .octoType2-5, .octoType2-6 {
@@ -64,7 +64,7 @@
         background-color: #f1f1f1;
     }
 
-    .octoType2, .octoType2-2, .octoType2-3, .octoType2-4, .octoType2-5, .octoType2-6, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7, .octoType8, .octoType9 {
+    .octoType3, .octoType3-2, .octoType3-3, .octoType3-4, .octoType3-5, .octoType3-6, .octoType3-7, .octoType3-8, .octoType3-9 {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -76,7 +76,63 @@
         flex-direction: column;
         text-align: center;
         background-color: #f1f1f1;
-        padding-bottom: 50px;
+    }
+
+    .octoType4, .octoType4-2, .octoType4-3, .octoType4-4, .octoType4-5, .octoType4-6, .octoType4-7 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    .octoType5, .octoType5-2, .octoType5-3, .octoType5-4, .octoType5-5, .octoType5-6 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    .octoType6, .octoType6-2, .octoType6-3, .octoType6-4, .octoType6-5, .octoType6-6, .octoType6-7, .octoType6-8, .octoType6-9, .octoType6-10 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    .octoType3, .octoType4, .octoType5, .octoType6, .octoType7, .octoType8, .octoType9 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;  
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        /* padding-bottom: 50px; */
     }
 
     
@@ -130,7 +186,15 @@
         width: 100vw;
         background-color: #ffff; 
     }
-
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+    .octoType3 h1, .octoType3-3 h1, .octoType3-5 h1, .octoType3-7 h1, .octoType3-9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff; 
+    }
     /* -------------------------------------------------------------------------------------------------------------------------------- */
 
     .octoType3 h1, .octoType3-2 h1, .octoType3-3 h1, .octoType3-4 h1, .octoType3-5 h1, .octoType3-6 h1, .octoType3-7 h1, .octoType3-8 h1, .octoType3-9 h1 {
@@ -143,21 +207,39 @@
 
     /* -------------------------------------------------------------------------------------------------------------------------------- */
 
-    .octoType4 h1, .octoType4-2 h1, .octoType4-3 h1, .octoType4-4 h1, .octoType4-5 h1, .octoType4-6 h1, .octoType4-7 h1 , .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
+    .octoType4 h1, .octoType4-2 h1, .octoType4-3 h1, .octoType4-4 h1, .octoType4-5 h1, .octoType4-6 h1, .octoType4-7 h1, .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
         display: flex;
         font-size: 20px;
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
     }
-    /* -------------------------------------------------------------------------------------------------------------------------------- */
 
-    .octoType5 h1, .octoType5-2 h1, .octoType5-3 h1, .octoType5-4 h1, .octoType5-5 h1, .octoType5-6 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1, .octoType8 h1, .octoType9 h1{
+    .octoType4 h1, .octoType4-3 h1, .octoType4-5 h1, .octoType4-7 h1 {
         display: flex;
         font-size: 20px;
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        background-color: #ffff; 
+    }
+    /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+    .octoType5 h1, .octoType5-2 h1, .octoType5-3 h1, .octoType5-4 h1, .octoType5-5 h1, .octoType5-6 h1, .octoType5 h1, .octoType6 h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+
+    .octoType5 h1, .octoType5-3 h1, .octoType5-5 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff; 
     }
     /* -------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -167,6 +249,15 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+    }
+
+    .octoType6 h1, .octoType6-3 h1, .octoType6-5 h1, .octoType6-7 h1, .octoType6-9 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff; 
     }
 
     /* --------------------------------------------------------------------------------------------------------------------------------
@@ -202,7 +293,7 @@
         width: 100vw;
         padding-top: 20px;
         background-color: #ffff;
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
     }
 
     .octoType1-2 p, .octoType1-3 p, .octoType1-4 p, .octoType1-6 p, .octoType1-8 p, .octoType1-10 p {
@@ -215,6 +306,10 @@
         padding-top: 20px;
     }
 
+    .octoType1 p, .octoType1-2 p, .octoType1-3 p, .octoType1-4 p, .octoType1-5 p, .octoType1-6 p, .octoType1-7 p, .octoType1-8 p, .octoType1-9 p, .octoType1-10 p {
+        padding-bottom: 50px;
+    }
+
     /* -------------------------------------------------------------------------------------------------------------------------------- */
 
     .octoType2 p, .octoType2-2 p, .octoType2-3 p, .octoType2-4 p, .octoType2-5 p, .octoType2-6 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {
@@ -224,7 +319,8 @@
         text-decoration: none;
         position: relative;
         width: 100vw;
-        /* padding-top: 20px; */
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
 
     .octoType2 p, .octoType2-3 p, .octoType2-5 p {
@@ -241,6 +337,11 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .octoType3 p, .octoType3-3 p, .octoType3-5 p, .octoType3-7 p, .octoType3-9 p {
+        background-color: #ffff;
     }
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
@@ -253,6 +354,11 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .octoType4 p, .octoType4-3 p, .octoType4-5 p, .octoType4-7 p {
+        background-color: #ffff;
     }
 
     /* -------------------------------------------------------------------------------------------------------------------------------- */
@@ -265,6 +371,11 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .octoType5 p, .octoType5-3 p, .octoType5-5 p, .octoType5-7 p {
+        background-color: #ffff;
     }
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
@@ -277,4 +388,9 @@
         position: relative;
         width: 100vw;
         padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .octoType6 p, .octoType6-3 p, .octoType6-5 p, .octoType6-7 p, .octoType6-9 p {
+        background-color: #ffff;
     }
