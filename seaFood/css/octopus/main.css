@@ -145,6 +145,15 @@
     background-color: #f1f1f1;
   }
 
+  .divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
   .octo1{
     display: flex;
     position: relative;
@@ -172,7 +181,6 @@
     height: auto;
     width: 100vw;
     background-color: #ffffff;
-    padding-bottom: 30px;
     margin-top: 40px;
 }
 
@@ -185,6 +193,10 @@
     width: 100vw;
     background-color: rgb(4, 122, 219);
     padding-top: 30px;
+    background-image: url("../../Assets/images/octopus/seafood-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 /* ----------------------------form---------------------------- */
@@ -192,9 +204,9 @@
     display: flex;
     padding-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
     justify-content: center;
     flex-wrap:wrap;
+    background-color: #f1f1f12a;
   }
 
 
@@ -216,8 +228,12 @@
   }
   
   .container h2 {
-      font-size: 18px;
-  }
+    font-size: 22px;
+    color: #181717;
+    font-weight: lighter;
+    background-color: rgba(240, 255, 255, 0.719);
+    padding: 20px;
+    }  
 
   .container h3 {
     height: auto;
@@ -264,4 +280,4 @@
 
 .marketList ol li {
     line-height: 1.6;
-}
+} 

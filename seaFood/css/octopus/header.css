@@ -1,4 +1,4 @@
-.octo1 h1 {
+.content h1 {
     display: flex;
     font-size: 22px;
     justify-content: center;
@@ -40,6 +40,8 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     
     .octoType1 p, .octoType2 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p, .octoType8 p, .octoType9 p {

@@ -169,7 +169,14 @@
     height: auto;
 }
 
-
+.divider {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  background-color: rgb(4, 122, 219);
+  padding-top: 30px;
+  margin-top: 30px;
+}
   /* -------------------------------------- */
 
 
@@ -178,7 +185,6 @@
     height: auto;
     width: 100vw;
     background-color: #ffffff;
-    padding-bottom: 30px;
     margin-top: 40px;
 }
 
@@ -191,6 +197,10 @@
     width: 100vw;
     background-color: rgb(4, 122, 219);
     padding-top: 30px;
+    background-image: url("../../Assets/images/shrimp/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 /* ----------------------------form---------------------------- */
@@ -198,7 +208,7 @@
     display: flex;
     padding-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f12a;
     justify-content: center;
     flex-wrap:wrap;
   }
@@ -222,8 +232,12 @@
   }
   
   .container h2 {
-      font-size: 18px;
-  }
+    font-size: 22px;
+    color: #181717;
+    font-weight: lighter;
+    background-color: rgba(240, 255, 255, 0.719);
+    padding: 20px;
+    }
 
   .container h3 {
     height: auto;

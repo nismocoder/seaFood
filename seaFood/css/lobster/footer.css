@@ -25,9 +25,9 @@
 .fish2 {
     width: 200px;
     height: 100%;
-    background-image: url("../../assets/images/fish.png");
+    background-image: url("../../assets/images/lobsterVec.png");
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 35%;
     background-position: center;
     cursor: pointer;
 }

@@ -10,8 +10,12 @@ content h1 {
 }
 
 .container h2 {
-    font-size: 18px;
-}
+  font-size: 22px;
+  color: #181717;
+  font-weight: lighter;
+  background-color: rgba(240, 255, 255, 0.719);
+  padding: 20px;
+  }  
 
 .container h3 {
   height: auto;

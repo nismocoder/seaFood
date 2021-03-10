@@ -3,7 +3,7 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "logo logo" 
+    grid-template-areas: "nav-main nav-main" 
                          "hero hero"
                          "content content"
                          "newsLetter newsLetter"
@@ -35,7 +35,7 @@
 
 .box {
     position: relative; 
-    height: 20vh;
+    height: 26vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,58 +54,13 @@
     opacity: 0.5;
 }
 
-.nav {
-    position: relative;
-    color: #ffffff;  
-    font-size: 30px;
-    line-height: 0.9;
-    text-align: center;
-}
 
-.nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    bottom: 5px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-}
-
-.nav li {
-    border-right: 1px solid #bbb;
-    line-height: 100%;
-}
-
-.nav li:last-child {
-    border-right: none;
-}
-
-.nav li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 2px 14px;
-    text-decoration: underline;
-    font-size:24px;
-    transition: 0.5s ease-in-out;
-}
-
-.nav li a:hover {
-    background: rgb(4, 122, 219);
-    padding: 25px;
-  }
 
 .content {
     grid-area: content;
     height: auto;
     width: 100vw;
     background-color: #ffffff;
-    padding-bottom: 30px;
 }
 
 .content h2 {
@@ -118,6 +73,23 @@
     font-weight: 600;
 }
 
+.divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
 
 .newsLetter {
     grid-area: newsLetter;
@@ -125,6 +97,10 @@
     width: 100vw;
     background-color: rgb(4, 122, 219);
     padding-top: 30px;
+    background-image: url("../../Assets/images/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* ----------------------------form---------------------------- */
@@ -132,7 +108,7 @@
     display: flex;
     padding-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f12a;
     justify-content: center;
     flex-wrap:wrap;
   }
@@ -156,8 +132,12 @@
   }
   
   .container h2 {
-      font-size: 18px;
-  }
+    font-size: 22px;
+    color: #181717;
+    font-weight: lighter;
+    background-color: rgba(240, 255, 255, 0.719);
+    padding: 20px;
+    }  
 
   .container h3 {
     height: auto;

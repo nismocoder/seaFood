@@ -96,6 +96,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-top: 40px;
     }
     
     .octoType2 h1:nth-child(odd) {

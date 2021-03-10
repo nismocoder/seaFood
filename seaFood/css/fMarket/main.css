@@ -60,11 +60,17 @@
     height: auto;
     width: 100vw;
     background-color: #ffffff;
-    padding-bottom: 30px;
     justify-content: center;
 }
 
-
+.divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
 
 
 .newsLetter {
@@ -73,6 +79,10 @@
     width: 100vw;
     background-color: rgb(4, 122, 219);
     padding-top: 30px;
+    background-image: url("../../Assets/images/assortedBg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
 }
 
 /* ----------------------------form---------------------------- */
@@ -80,7 +90,7 @@
     display: flex;
     padding-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f12a;
     justify-content: center;
     flex-wrap:wrap;
   }

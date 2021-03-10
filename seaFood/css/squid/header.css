@@ -1,4 +1,4 @@
-.squid1 h1 {
+.content h1 {
     display: flex;
     font-size: 22px;
     justify-content: center;
@@ -73,6 +73,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-bottom: 25px;
     }
     
     .squidType2 p {
@@ -107,6 +108,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-bottom: 25px;
     }
     
     .squidType3 p {
@@ -140,6 +142,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-bottom: 25px;
     }
     
     .squidType4 p {
@@ -174,6 +177,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-bottom: 25px;
     }
     
     .squidType5 p {
@@ -207,6 +211,7 @@
         justify-content: center;
         text-decoration: underline;
         width: 100vw;
+        padding-bottom: 25px;
     }
     
     .squidType6 p {

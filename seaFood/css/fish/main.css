@@ -42,7 +42,13 @@
     cursor: pointer;
     color:rgb(29, 28, 28);
 }
-
+/* .newsLetter {
+  grid-area: newsLetter;
+  height: auto;
+  width: 100vw;
+  background-color: rgb(4, 122, 219);
+  padding-top: 30px;
+} */
 .box {
     position: relative; 
     height: 26vh;
@@ -251,21 +257,27 @@
 
   /* -------------------------------------- */
 
-
-.newsLetter {
+  .newsLetter {
     grid-area: newsLetter;
     height: auto;
     width: 100vw;
     background-color: rgb(4, 122, 219);
+    position: relative;
     padding-top: 30px;
+    background-image: url("../../Assets/images/fish/salmon/fwa.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
 }
+
+
 
 /* ----------------------------form---------------------------- */
 .container {
     display: flex;
     padding-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f12a;
     justify-content: center;
     flex-wrap:wrap;
   }
@@ -276,6 +288,7 @@
  .form {
     border: 3px solid #f1f1f1;
     font-family: Arial;
+    position: relative;
   }
   
   
@@ -291,8 +304,12 @@
   }
   
   .container h2 {
-      font-size: 18px;
-  }
+    font-size: 22px;
+    color: #181717;
+    font-weight: lighter;
+    background-color: rgba(240, 255, 255, 0.719);
+    padding: 20px;
+    }
 
   .container h3 {
     height: auto;

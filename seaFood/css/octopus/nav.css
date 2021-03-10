@@ -171,7 +171,7 @@
     flex-wrap: wrap;
     font-size: 17px;
     font-weight: bold;
-    z-index: 2;
+    z-index: 5;
     /* padding-left: 6px; */
   }
   
@@ -180,9 +180,9 @@
     width: 44px;
     height: 100%;
     background-color: rgb(199, 188, 188);
-    background-image: url("../../assets/images/fish.png");
+    background-image: url("../../assets/images/octoVec.png");
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 75%;
     background-position: center;
     cursor: pointer;
     order: 1;

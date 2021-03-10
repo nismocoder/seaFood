@@ -118,7 +118,7 @@ img {vertical-align: middle;}
   background-image: url("../../Assets/images/octopus/aaa.jfif");
   justify-content: center;
   background-position: center;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .octoPic1 {

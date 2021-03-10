@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeaFood!</title>
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/restaurants/nav.css" type="text/css">
     <link rel="stylesheet" href="css/restaurants/main.css" type="text/css">
-    <link rel="stylesheet" href="css/restaurants/main.css" type="text/css">
+    <link rel="stylesheet" href="css/restaurants/header.css" type="text/css">
     <link rel="stylesheet" href="css/restaurants/gallery.css" type="text/css">
     <link rel="stylesheet" href="css/restaurants/footer.css" type="text/css">
 
@@ -17,33 +19,54 @@
     </style>
 
 </head>
+
 <body>
 
     <div class="grid">
-    
-        <div class="logo">SEAFOOD
-            <div class="fish"></div>
-            GUIDE
-        </div>
-    
 
         <div class="hero">
+
+            <nav class="nav-main">
+                <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+                <div class="centerLogo">
+                    SEAFOOD
+                    <div class="fish"></div>
+                    GUIDE
+                </div>
+                <div class="invisible">d</div>
+            </nav>
+
+            <aside class="nav-sidebar">
+                <ul>
+                    <li><span>Species Info:</span></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="crabs.html">Crabs</a></li>
+                    <li><a href="shrimp.html">Shrimp</a></li>
+                    <li><a href="lobster.html">Lobsters</a></li>
+                    <li><a href="squid.html">Squid</a></li>
+                    <li><a href="octopus.html">Octopus</a></li>
+                </ul>
+            </aside>
+
+
             <div class="box">
                 <div class="nav">
                     <ul>
-                        <li><a href="seaFoodInfo.html">SeaFood Info.</a></li>
+                        <li><a href="restaurants.html">Restaurants</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="fMarket.html">Fish Markets</a></li>
                     </ul>
                 </div>
+
             </div>
         </div>
-    
+
         <div class="content">
             <h2>The top 10 Seafood restaurants in the world!</h2>
             <div class="marketList">
                 <ol class="Left">
-                    <li><a href="https://www.hivebeachcafe.co.uk/">1. Hive Beach Café<br>Burton Bradstock, England </a></li>
+                    <li><a href="https://www.hivebeachcafe.co.uk/">1. Hive Beach Café<br>Burton Bradstock, England </a>
+                    </li>
                     <li><a href="https://fiskebaren.dk/">2. Kødbyens Fiskebar<br>Copenhagen, Denmark</a></li>
                     <li><a href="https://bacash.com.au/">3. Bacash<br>Melbourne, Australia</a></li>
                     <li><a href="https://www.fiskeriet.net/#home-section">4. Fiskeriet<br>Oslo, Norway</a></li>
@@ -53,7 +76,8 @@
                     <li><a href="https://www.le-bernardin.com/">6. Le Bernardin<br>NYC, US</a></li>
                     <li><a href="https://lamarcebicheria.com/en/Lima">7. La Mar<br>Lima, Peru</a></li>
                     <li><a href="https://www.sushi-jiro.jp/dining-at-jiro/">8. Sukiyabashi Jiro<br>Tokyo, Japan</a></li>
-                    <li><a href="http://www.esculaprestaurants.com/fish-restaurant-proto-dubrovnik/index.html">9. Proto<br>Dubrovnik, Croatia</a></li>
+                    <li><a href="http://www.esculaprestaurants.com/fish-restaurant-proto-dubrovnik/index.html">9.
+                            Proto<br>Dubrovnik, Croatia</a></li>
                     <li><a href="https://www.chezleon.be/en/">10. Chez Leon<br>Brussels, Belgium</a></li>
                 </ol>
             </div>
@@ -61,7 +85,7 @@
             <div class="mapContainer">
                 <div id="map"></div>
             </div>
-            
+            <div class="divider"></div>
         </div>
 
         <div class="newsLetter">
@@ -71,7 +95,7 @@
 
                 </div>
 
-                <div class="container" style="background-color:white">
+                <div class="container" style="background-color:rgba(255, 255, 255, 0.171)">
                     <input type="text" placeholder="Name" name="name" required>
                     <input type="text" placeholder="Email" name="mail" required>
 
@@ -90,7 +114,7 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About US</a></li>
                     <li><a href="#">FAQ</a></li>
-                  </ul>
+                </ul>
             </div>
 
             <div class="fish2"></div>
@@ -104,10 +128,10 @@
 
     </div> <!-- grid -->
 
-<script src="js/restaurant.js"></script>
-<script
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp-mrLB3duXI7cDTLapj-czMt_xQvKnTI&callback=initMap&libraries=&v=weekly"
-defer
-></script>
+    <script src="js/restaurant.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp-mrLB3duXI7cDTLapj-czMt_xQvKnTI&callback=initMap&libraries=&v=weekly"
+        defer></script>
 </body>
+
 </html>
