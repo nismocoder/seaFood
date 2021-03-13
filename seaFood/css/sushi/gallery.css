@@ -131,6 +131,7 @@ img {vertical-align: middle;}
   padding-top: 40px;
   padding-bottom: 80px;
   /* padding-top: 30px; */
+  background-color: #f1f1f1;
 }
 
 .ajiSashimi {
@@ -143,9 +144,10 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   padding-top: 40px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   /* padding-top: 30px; */
   background-color: #ffff;
+  padding-bottom: 40px;
 }
 
 .amaebiSashimi {
@@ -157,10 +159,9 @@ img {vertical-align: middle;}
   background-image: url("../../Assets/images/sushi/amaebiSashimi.jfif");
   justify-content: center;
   background-position: center;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   padding-top: 30px;
-  background-color: #ffff;
+  background-color: #f1f1f1;
 }
 
 .anagoSashimi {
@@ -172,9 +173,10 @@ img {vertical-align: middle;}
   background-image: url("../../Assets/images/sushi/anagoSashimi.jfif");
   justify-content: center;
   background-position: center;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 80px; */
   padding-top: 30px;
+  /* padding-bottom: 30px; */
   background-color: #ffff;
 }
 
@@ -187,8 +189,6 @@ img {vertical-align: middle;}
   background-image: url("../../Assets/images/sushi/aoyagiSashimi.jfif");
   justify-content: center;
   background-position: center;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -202,8 +202,8 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 80px; */
   padding-top: 30px;
 }
 
@@ -217,8 +217,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -232,8 +230,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -247,8 +243,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -262,8 +256,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -277,8 +269,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -292,8 +282,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -307,8 +295,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -322,8 +308,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -337,8 +321,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -352,8 +334,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -367,8 +347,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -382,8 +360,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -397,8 +373,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -412,8 +386,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -427,8 +399,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -442,8 +412,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -457,8 +425,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -472,8 +438,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -487,8 +451,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -502,8 +464,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -516,9 +476,7 @@ img {vertical-align: middle;}
   background-image: url("../../Assets/images/sushi/umiMasuSashimi.jpg");
   justify-content: center;
   background-position: center;
-  background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  background-color: #f1f1f1;  
   padding-top: 30px;
 }
 
@@ -532,8 +490,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #ffff;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 
@@ -547,8 +503,6 @@ img {vertical-align: middle;}
   justify-content: center;
   background-position: center;
   background-color: #f1f1f1;
-  margin-top: 40px;
-  margin-bottom: 80px;
   padding-top: 30px;
 }
 

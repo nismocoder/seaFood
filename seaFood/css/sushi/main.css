@@ -156,6 +156,20 @@
     justify-content: center;
 }
 
+.octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7 {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: #f1f1f1; */
+  padding-bottom: 50px;
+}
 
 
 /* .octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7 {
