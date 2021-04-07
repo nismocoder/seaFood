@@ -16,6 +16,7 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
+
 .backGroundIMG {
   background: url("../../Assets/images/sushi/rollingSushi.jpg");
   height: 475px;
