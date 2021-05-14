@@ -1,0 +1,224 @@
+.octo1 h1 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    }
+
+    .octo1 h1:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    .octo1 h1:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octo1 p:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octo2 h1 {
+        display: flex;
+        font-size: 22px;
+        justify-content: center;
+        text-decoration: underline;
+        position: relative;
+        top: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        }
+
+        .octoType2 h1:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+    
+        .octoType2 h1:nth-child(even) {
+            background-color: #ffff;
+        }
+
+        .octo p:nth-child(even) {
+            background-color: #ffff;
+        }
+
+        .octo p:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+
+
+        .octo3 h1 {
+            display: flex;
+            font-size: 22px;
+            justify-content: center;
+            text-decoration: underline;
+            position: relative;
+            top: 0;
+            padding-bottom: 20px;
+            padding-top: 40px;
+            }
+
+            .octo3 h1:nth-child(odd) {
+                background-color: #f1f1f1;
+            }
+
+            .octo3 h1:nth-child(even) {
+                background-color: #ffff;
+            }
+
+            .octo3 p:nth-child(even) {
+                background-color: #ffff;
+            }
+    
+    .content h2 {
+        justify-content: center;
+        font-size: 22px;
+        padding:40px;
+        position: relative;
+        display: flex;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    
+
+    .octoType1 h1, .octoType2 h1, .octoType3 h1, .octoType4 h1, .octoType5 h1, .octoType6 h1, .octoType7 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        padding-top: 40px;
+    }
+    
+    .octoType2 h1:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    .octoType2 h1:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octo2 p:nth-child(even) {
+        background-color: #ffff;
+    }
+
+    .octoType1 p, .octoType2 p, .octoType3 p, .octoType4 p, .octoType5 p, .octoType6 p, .octoType7 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    
+
+    .octoType6 ul {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .octoType6 ul li {
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* .octoType2 h1:nth-child(odd) {
+        background-color:#f1f1f1;
+    }
+    .octoType2 h1:nth-child(even) {
+        background-color:#ffff;
+    } */
+
+
+
+
+
+
+
+    /* .tigerRoll, .crunchRoll, .rainbowRoll, .californiaRoll, .caterpillarRoll, .vegetableRoll, .SurfandTurfRoll, .volcanoRoll {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    } */
+    
+    /* .PhiladelphiaRoll, .dynamiteRoll, .dragonRoll, .spicyTunaRoll, .SpiderRoll, .ShrimpTempuraRoll, .tempuraRoll {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ffff;
+        padding-bottom: 50px;
+    } */
+
+    
+    /* .tigerRoll h1,.crunchRoll h1,.rainbowRoll h1,.californiaRoll h1,.caterpillarRoll h1,.vegetableRoll h1,.SurfandTurfRoll h1,.volcanoRoll h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #f1f1f1;
+    } */
+
+        /* .octoType3 h1:nth-child(odd)  */
+    /* .PhiladelphiaRoll h1,.dynamiteRoll h1,.dragonRoll h1,.spicyTunaRoll h1,.SpiderRoll h1,.ShrimpTempuraRoll h1,.tempuraRoll h1
+    {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+        background-color: #ffff;
+    } */
+    
+    /* .tigerRoll p, .crunchRoll p, .rainbowRoll p, .californiaRoll p, .caterpillarRoll p, .vegetableRoll p, .SurfandTurfRoll p, .volcanoRoll p{
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        background-color: #f1f1f1;
+    } */
+
+    /* .philadelphiaRoll p, .dynamiteRoll p, .dragonRoll p, .spicyTunaRoll p, .spiderRoll p, .shrimpTempuraRoll p, .tempuraRoll p{
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        background-color: #ffff;
+    } */
+
+    /* --------------------------------------------------------------------------------------------- */
+

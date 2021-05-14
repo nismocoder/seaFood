@@ -1,0 +1,23 @@
+content h1 {
+    justify-content: center;
+    font-size: 22px;
+    padding:40px;
+    position: relative;
+    display: flex;
+    text-decoration: underline;
+    font-weight: 600;
+    width: 100vw;
+}
+
+.container h2 {
+  font-size: 22px;
+  color: #181717;
+  font-weight: lighter;
+  background-color: rgba(240, 255, 255, 0.719);
+  padding: 20px;
+  }  
+
+.container h3 {
+  height: auto;
+  width: 75%;
+}

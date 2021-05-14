@@ -1,0 +1,118 @@
+
+                        ---------------BRAINSTORMING--------------
+
+
+-Top Seafood restaurants in popular cities.
+-Top fish markets in popular cities
+
+
+-List of most common seafood dishes in different categories: sushi, grilled, fried etc.
+(-List of most common fish/squid/shellfish types and info on them like where they can be found- for sushi)
+
+-Potentially have a recipe section- Link to recipe inside the description of "most common dishes"
+
+
+
+-Sea Food condiments
+
+- "sushi guide"
+- "recipes"
+-Grill Guide?
+
+
+
+
+-----------------------------------------------------------------------------------
+
+Index page
+
+		 Logo
+		
+	       Hero image
+
+ Sea Food Info  |  RESTAURANTS |  FISHMARKETS
+
+cycle popular restaurants
+pull in API for random seafood news?
+
+	   Email newsletter
+
+   FOOTER (home, contact, about us, faq)
+
+
+
+-For the "Info" section,
+categories can be:
+
+ popular dishes      Sushi Guide      
+ (^grilled,etc)
+
+-For restaurant section could do a "make a reservation" section
+-Also basic info under the hero image of the rest. like:
+     store hours and google map
+
+
+
+1-toyosu- 35.6762, lng: 139.6503
+2-La Nueva Viga- 19.3674, -99.0970
+3-Sydney Fish Market- 33.8730° S, 151.1927° E
+4-Billingsgate F market- 51.5062° N, 0.0126°
+5-Hamburg F market- 53.5457, 9.9520
+6-Busan Cooperative- 35.0884° N, 129.0252
+7-Feskekorka- 57.7019, 11.9573
+8-Fulton NY- 40.8026° N, 73.8752     40.80277615008147, -73.8752430939371
+9-Aberdeen HK- 22.2480° N, 114.1511
+10-Teipei Taiwan- 25.0667° N, 121.5367
+
+1 Hive Beach Cafe 50.6972, -2.7222
+2 Kødbyens Fiskebar 55.6680, 12.5592
+3 Bacash -37.8340, 144.9819
+4 Fiskeriet 59.9146, 10.7497
+5 Alle Testiere 45.4372, 12.3402
+6 Le Bernardin 40.7617, -73.9819
+7 la mar -12.1112, 
+8 Sukiyabashi Jiro 35.6745, 139.7634
+9 Proto 42.6414, 18.1084
+10 Chez Leon -20.2475, 57.4743
+50.8484, 4.3541
+
+
+
+
+https://www.homestratosphere.com/types-of-shrimp/
+https://nayturr.com/types-of-lobster/
+https://www.allrecipes.com/article/types-of-salmon/
+https://northernnester.com/types-of-tuna/
+https://nayturr.com/types-of-crabs/
+https://nayturr.com/types-of-octopus/
+https://www.theguardian.com/lifeandstyle/shortcuts/2016/oct/19/squids-out-are-there-any-that-it-is-still-ok-to-eat
+https://www.cameronsseafood.com/blog/crab-how-tos/the-best-condiments-for-seafood-our-store-bought-favorites/
+https://lobsteranywhere.com/seafood-savvy/best-sauces-lobster/
+https://www.saveur.com/gallery/six-perfect-sauces-for-crab/
+https://www.foodandwine.com/seafood/fish/10-quick-sauces-fish
+https://www.justonecookbook.com/ultimate-sushi-guide/
+https://delishably.com/meat-dishes/The-Different-Kinds-of-Sushi
+https://www.sushifaq.com/sushi-sashimi-info/sushi-grade-fish/
+
+https://www.quora.com/What-are-some-dipping-sauces-for-fried-calamari
+
+
+Chili Sesame Dressing
+Ancho Chile Sauce
+Black Bean–Pear Sauce
+Takoyaki sauce
+Kewpie sauce (Roasted Sesame sauce)
+Tempura Dipping Sauce
+
+
+   squid
+romesco sauce
+Marinara Sauce -
+Garlic Lemon Mayonnaise -
+Chipotle Aioli sauce -
+Lemon Basil Sauce
+ranch -
+smoked chipotle -
+creamy chipotle -
+red sauce -
+sweet orange -

@@ -1,0 +1,54 @@
+.content h1 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    }
+    
+    .content h2 {
+        justify-content: center;
+        font-size: 22px;
+        padding:40px;
+        position: relative;
+        display: flex;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    
+    .crabType1, .crabType2, .crabType3, .crabType4, .crabType5, .crabType6, .crabType7, .crabType8, .crabType9, .crabType10 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    }
+    
+    .crabType1 h1, .crabType2 h1, .crabType3 h1, .crabType4 h1, .crabType5 h1, .crabType6 h1, .crabType7 h1, .crabType8 h1, .crabType9 h1, .crabType10 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .crabType1 p, .crabType2 p, .crabType3 p, .crabType4 p, .crabType5 p, .crabType6 p, .crabType7 p, .crabType8 p, .crabType9 p, .crabType10 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    

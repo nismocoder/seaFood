@@ -1,0 +1,135 @@
+.content h1 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    }
+    
+    .content h2 {
+        justify-content: center;
+        font-size: 22px;
+        padding:40px;
+        position: relative;
+        display: flex;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    
+    .lobsterType1, .lobsterType2, .lobsterType3, .lobsterType4, .lobsterType5, .lobsterType6 {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding-bottom: 50px;
+    }
+    
+    .lobsterType1 h1, .lobsterType2 h1,.lobsterType3 h1, .lobsterType4 h1, .lobsterType5 h1, .lobsterType6 h1 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: underline;
+        width: 100vw;
+    }
+    
+    .lobsterType1 p, .lobsterType2 p, .lobsterType3 p, .lobsterType4 p, .lobsterType5 p, .lobsterType6 p {
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    
+    
+    
+    .tuna h1{
+        display: flex;
+        font-size: 22px;
+        justify-content: center;
+        text-decoration: underline;
+        position: relative;
+        top: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        background-color: #ffffff;
+        }
+    
+        .tunaType1, .tunaType2, .tunaType3, .tunaType4, .tunaType5, .tunaType6, .tunaType7, .tunaType8, .tunaType9, .tunaType10 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+
+        .tunaType11, .tunaType12, .tunaType13, .tunaType14, .tunaType15 {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            top: 0;
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-bottom: 50px;
+        }
+        
+        .tunaType1 h1, .tunaType2 h1, .tunaType3 h1, .tunaType4 h1, .tunaType5 h1, .tunaType6 h1, .tunaType7 h1, .tunaType8 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+
+        .tunaType9 h1, .tunaType10 h1, .tunaType11 h1, .tunaType12 h1, .tunaType13 h1, .tunaType14 h1, .tunaType15 h1 {
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            text-decoration: underline;
+            width: 100vw;
+            background-color: #f1f1f1;
+        }
+        
+        .tunaType1 p, .tunaType2 p, .tunaType3 p, .tunaType4 p, .tunaType5 p, .tunaType6 p, .tunaType7 p, .tunaType8 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        .tunaType9 p, .tunaType10 p, .tunaType11 p, .tunaType12 p, .tunaType13 p, .tunaType14 p, .tunaType15 p {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            width: 100vw;
+            padding-top: 20px;
+        }

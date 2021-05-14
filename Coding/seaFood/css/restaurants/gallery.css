@@ -1,0 +1,37 @@
+.hero {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    background: url("../../Assets/images/restmain.png");
+    height: 575px;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    align-items: flex-end;
+}
+
+/* ---------------------- slideshow---------------------------- */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* ------------------------------------------------- */
+.mapContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#map {
+  display: flex;
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 75%;
+  /* The width is the width of the web page */
+  justify-content: center;
+}

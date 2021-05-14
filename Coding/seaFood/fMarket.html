@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaFood!</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/nav.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/main.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/header.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/gallery.css" type="text/css">
+    <link rel="stylesheet" href="css/fMarket/footer.css" type="text/css">
+
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+    <div class="grid">
+    
+        <!-- <div class="logo">SEAFOOD
+            <div class="fish"></div>
+            GUIDE
+        </div> -->
+    
+        <nav class="nav-main">
+            <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+            <div class="centerLogo">
+                SEAFOOD
+                <div class="fish"></div>
+                GUIDE
+            </div>
+            <div class="invisible">d</div>
+        </nav>
+
+        <aside class="nav-sidebar">
+            <ul>
+                <li><span>Species Info:</span></li>
+                <li><a href="fish.html">Fish</a></li>
+                <li><a href="crabs.html">Crabs</a></li>
+                <li><a href="shrimp.html">Shrimp</a></li>
+                <li><a href="lobster.html">Lobsters</a></li>
+                <li><a href="octopus.html">Octopus</a></li>
+                <li><a href="squid.html">Squid</a></li>
+            </ul>
+        </aside>
+
+        <div class="hero">
+            <div class="box">
+                <div class="nav">
+                    <ul>
+                        <li><a href="sushi.html">Sushi</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="restaurants.html">Restaurants</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="content">
+            <h1>The top 10 Largest Fish Markets in the world!</h1>
+            <div class="marketList">
+                <ol class="Left">
+                    <li><a href="https://www.tsukiji.or.jp/english/">1. Toyosu Japan</a></li>
+                    <li><a href="http://cdmxtravel.com/en/attractions/la-nueva-viga-market.html">2. La Nueva Viga Mexico</a></li>
+                    <li><a href="https://www.sydneyfishmarket.com.au/">3. Sydney Fish Market</a></li>
+                    <li><a href="https://www.cityoflondon.gov.uk/supporting-businesses/business-support-and-advice
+                        /wholesale-markets/billingsgate-market/about-billingsgate-market">4. Billingsgate England</a></li>
+                    <li><a href="https://www.hamburg.com/sights/maritime/11747570/fish-market/">5. Hamburg Germany</a></li>
+                </ol>
+                <ol class="Right">
+                    <li><a href="http://www.bcfm.co.kr/main/main.jsp">6. Busan Cooperative Korea</a></li>
+                    <li><a href="https://www.higab.se/projekt/projekt-feskekorka/">7. Feskekorka Sweden</a></li>
+                    <li><a href="https://newfultonfishmarket.com/">8. Fulton New York</a></li>
+                    <li><a href="https://www.fmo.org.hk/page?path=11_20_21&id=27">9. Aberdeen Hong Kong</a></li>
+                    <li><a href="https://www.englishintaiwan.com/
+                        shopping-in-taiwan/taipei-fish-market-fresh">10. Taipei Fish Market</a></li>
+                </ol>
+            </div>
+            <h3></h3>
+            <div class="mapContainer">
+                <div id="map"></div>
+            </div>
+            <div class="divider"></div>
+        </div>
+
+        <div class="newsLetter">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h2>Subscribe to our Newsletter</h2>
+
+                </div>
+
+                <div class="container" style="background-color:rgba(255, 255, 255, 0.171)">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email" name="mail" required>
+
+                </div>
+
+                <div class="container">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+
+            <div class="bNav">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+            </div>
+
+            <div class="fish2"></div>
+
+            <div class="contact-container">
+                <div class="phone">(800)-800-8000</div>
+                <div class="email">seafoodinfo@seafoodinfo.com</div>
+                <div class="smIcons">FB,TW,Pin</div>
+            </div>
+        </div>
+
+    </div> <!-- grid -->
+
+<script src="js/fMarket.js"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp-mrLB3duXI7cDTLapj-czMt_xQvKnTI&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+</body>
+</html>

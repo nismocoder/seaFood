@@ -1,0 +1,158 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo logo" 
+                         "hero hero"
+                         "content content"
+                         "newsLetter newsLetter"
+                         "footer footer";
+}
+
+.logo {
+    grid-area: logo;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(4, 122, 219);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fish {
+    width: 100px;
+    height: 100%;
+    background-image: url("../../assets/images/fish.png");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.box {
+    position: relative; 
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box::before {    
+    content: "";
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+
+.content {
+    grid-area: content;
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+
+.newsLetter {
+    grid-area: newsLetter;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    background-image: url("../../Assets/images/assortedBg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+/* ----------------------------form---------------------------- */
+.container {
+    display: flex;
+    padding-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f12a;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+
+ .form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  
+  input[type=text], input[type=submit] {
+    width: 25%;
+    padding: 12px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    font-size: 18px;
+  }
+  
+
+
+  .container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    justify-content: center;
+    width: 180px;
+    transition: 0.6s ease-in-out;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+    background-color: rgb(4, 122, 219);
+    cursor: pointer;
+  }
+/* ------------------------------------------ */
+
+.marketList {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.olleft {
+    padding: 10px;
+    flex: 50%;
+}
+
+.olright{
+    padding: 10px;
+    flex: 50%;
+}
+
+.marketList ol li {
+    line-height: 1.6;
+}

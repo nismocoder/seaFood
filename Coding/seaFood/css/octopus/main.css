@@ -1,0 +1,283 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "nav-main nav-main" 
+                         "hero hero"
+                         "content content"
+                         "newsLetter newsLetter"
+                         "footer footer";
+}
+
+.logo {
+    grid-area: logo;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(4, 122, 219);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fish {
+    width: 100px;
+    height: 100%;
+    background-image: url("../../assets/images/fish.png");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.box {
+    position: relative; 
+    height: 26vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box::before {    
+    content: "";
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+
+  /* ------------------------------------------ */
+  .seaLifeType {
+    position: relative;
+    color: #ffffff;  
+    font-size: 30px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.seaLifeType ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    bottom: 5px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.seaLifeType li {
+    border-right: 1px solid #bbb;
+    line-height: 100%;
+}
+
+.seaLifeType li:last-child {
+    border-right: none;
+}
+
+.seaLifeType li a {
+    display: inline;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 2px 14px;
+    text-decoration: underline;
+    font-size:18px;
+    transition: 0.5s ease-in-out;
+}
+
+.seaLifeType li a:hover {
+    background: rgb(4, 122, 219);
+    padding: 25px;
+  }
+
+  .salPicture {
+    padding-bottom: 40px;
+  }
+
+.octopusContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.collapsible {
+    display: flex;
+    background-color: rgba(170, 170, 170, 0);
+    color: #142c41;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #142c41;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+  }
+
+
+  .active, .collapsible:hover {
+    background-color: rgb(89, 125, 243);
+  }
+  
+  .content2 {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .divider {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+  .octo1{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.octoType1, .octoType2, .octoType3, .octoType4, .octoType5, .octoType6, .octoType7, .octoType8, .octoType9 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+  /* -------------------------------------- */
+
+
+.content {
+    grid-area: content;
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+
+
+
+.newsLetter {
+    grid-area: newsLetter;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(4, 122, 219);
+    padding-top: 30px;
+    background-image: url("../../Assets/images/octopus/seafood-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+/* ----------------------------form---------------------------- */
+.container {
+    display: flex;
+    padding-top: 40px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-color: #f1f1f12a;
+  }
+
+
+ .form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  
+  input[type=text], input[type=submit] {
+    width: 25%;
+    padding: 12px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    font-size: 18px;
+  }
+  
+  .container h2 {
+    font-size: 22px;
+    color: #181717;
+    font-weight: lighter;
+    background-color: rgba(240, 255, 255, 0.719);
+    padding: 20px;
+    }  
+
+  .container h3 {
+    height: auto;
+    width: 75%;
+  }
+
+  .container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    justify-content: center;
+    width: 180px;
+    transition: 0.6s ease-in-out;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+    background-color: rgb(4, 122, 219);
+    cursor: pointer;
+  }
+/* ------------------------------------------ */
+
+.marketList {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.olleft {
+    padding: 10px;
+    flex: 50%;
+}
+
+.olright{
+    padding: 10px;
+    flex: 50%;
+}
+
+.marketList ol li {
+    line-height: 1.6;
+} 
